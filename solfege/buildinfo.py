@@ -16,9 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from solfege._version import version_info
-
-VERSION_STRING = '@VERSION@'
+VERSION_STRING = '3.4'
 REVISION_ID = '@REVISION_ID@'
 HAVE_LINUX_AWE_VOICE_H = "@HAVE_LINUX_AWE_VOICE_H@" == "yes"
 ENABLE_TUNER = "@ENABLE_TUNER@" == "yes"
@@ -29,8 +27,7 @@ def is_release():
     Return True if we are a official release, either devel or stable.
     Return False if we are running from a bzr branch.
     """
-    return (version_info['revision_id'] == REVISION_ID and
-            'bzr-checkout' not in VERSION_STRING)
+    return False
 
 
 def get_bzr_revision_info_list():
