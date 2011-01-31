@@ -74,4 +74,4 @@ if cfg.get_string("app/lc_messages") == 'C (english)':
 i18n.setup(prefix, cfg.get_string("app/lc_messages"))
 
 import solfege.startup
-solfege.startup.start_app(os.path.join(prefix, "share", "solfege"))
+solfege.startup.start_app('.')
