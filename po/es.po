@@ -1,0 +1,4756 @@
+# Spanish translations for GNU Solfege.
+# Copyright (C) 2001, 2002  Free Software Foundation, Inc.
+# Diego Duchowney <die@die.com.fr>, 2002.
+# Daniel Tonda Castillo <danton67@mailandnews.com>, 2002.
+# Fernando Sancho <fsancho@hispafuentes.com>, 2006.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU Solfege 3.0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-04-05 23:43+0200\n"
+"PO-Revision-Date: 2006-01-19 11:47+0100\n"
+"Last-Translator: Fernando Sancho <fsancho@hispafuentes.com>\n"
+"Language-Team: Spanish/Spain <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/abstract.py:112
+msgid ""
+"The lessonfile contain potentially dangerous code because it run external "
+"programs. Run anyway?"
+msgstr ""
+"El fichero contiene código potencialmente peligroso debido a que ejecuta "
+"programas externos. ¿Ejecutar de todas formas?"
+
+#: src/abstract.py:372 src/configwindow.py:232 src/configwindow.py:234
+#: src/mainwin.py:747
+msgid "Practise"
+msgstr "Ejercicios"
+
+#: src/abstract.py:373
+msgid "Config"
+msgstr "Configuración"
+
+#: src/abstract.py:375
+msgid "_Cancel test"
+msgstr "Cancelar"
+
+#: src/abstract.py:387
+#, python-format
+msgid ""
+"Test completed!\n"
+"Your score was %(score).1f%%.\n"
+"The test requirement was %(requirement).1f%%."
+msgstr ""
+"¡Prueba superada!\n"
+"Su puntuacuón fue %(score).1f%% \n"
+"La puntuación requerida era %(requirement).1f%%."
+
+#: src/abstract.py:390
+#, python-format
+msgid ""
+"Test failed.\n"
+"Your score was %(score).1f%%.\n"
+"The test requirement was %(requirement).1f%%."
+msgstr ""
+"Prueba no superada \n"
+"Su puntuación fue %(score).1f%%.\n"
+"La puntuación requerida era %(requirement).1f%%."
+
+#: src/abstract.py:429 src/identifybpm.py:136
+msgid "Statistics"
+msgstr "Estadísticas"
+
+#: src/abstract.py:447
+msgid "Delay (seconds):"
+msgstr "Retardo (segundos):"
+
+#: src/abstract.py:453
+msgid "_New question automatically."
+msgstr "Nueva pregunta automáticamente."
+
+#: src/abstract.py:463
+#, fuzzy, python-format
+msgid ""
+"Please check question number %(idx)i in the lesson file \"%(lf)s\".\n"
+"\n"
+msgstr ""
+"Sucedió un error al interpretar la música para la pregunta número %(idx)"
+"i·en·'%(lf)s':\n"
+"%(ex)s"
+
+#: src/abstract.py:464 src/abstract.py:482 src/mainwin.py:535
+#, python-format
+msgid ""
+"The exception was caught in\n"
+"\"%(filename)s\", line %(lineno)i."
+msgstr "Excepción capturada en %(filename)s:%(lineno)i"
+
+#: src/abstract.py:474
+#, fuzzy, python-format
+msgid ""
+"Failed to parse the music in the variable \"%(varname)s\" in question number "
+"%(idx)i in the lesson file \"%(lf)s\"."
+msgstr ""
+"Sucedió un error al interpretar la música para la pregunta número %(idx)"
+"i·en·'%(lf)s':\n"
+"%(ex)s"
+
+#: src/abstract.py:479
+#, fuzzy, python-format
+msgid ""
+"Failed to parse the music for question number %(idx)i in the lesson file \"%"
+"(lf)s\"."
+msgstr ""
+"Sucedió un error al interpretar la música para la pregunta número %(idx)"
+"i·en·'%(lf)s':\n"
+"%(ex)s"
+
+#: src/abstract.py:535
+msgid "Rhythms to use in question"
+msgstr "Ritmos a utilizar en las preguntas"
+
+#: src/abstract.py:544
+msgid "Number of beats in question:"
+msgstr "Cantidad de compases en la pregunta:"
+
+#: src/abstract.py:551
+msgid "Count in before question:"
+msgstr "Compter avant la question:"
+
+#: src/abstract.py:617 src/harmonicinterval.py:363 src/melodicinterval.py:286
+#: src/singinterval.py:96 src/singinterval.py:213
+msgid "_New interval"
+msgstr "Nuevo intervalo"
+
+#: src/abstract.py:619 src/chord.py:167 src/chordvoicing.py:142
+#: src/compareintervals.py:134 src/elembuilder.py:108
+#: src/harmonicprogressiondictation.py:51 src/idbyname.py:108
+#: src/idtone.py:140 src/rhythm.py:199 src/rhythmtapping.py:138
+#: src/singanswer.py:55
+msgid "_Repeat"
+msgstr "Repetir"
+
+#: src/abstract.py:629
+msgid "Input interface:"
+msgstr "Interfaz de entrada"
+
+#: src/abstract.py:642
+msgid "_Disable unused buttons"
+msgstr "_Deshabilitar botones no usados"
+
+#: src/abstract.py:666 src/inputwidgets.py:639
+msgid "Buttons"
+msgstr "Botones"
+
+#: src/abstract.py:699 src/lessonfile_editor_main.py:221
+msgid "Random transpose:"
+msgstr "Transposición aleatoria"
+
+#: src/abstract.py:707
+msgid "Change ..."
+msgstr "Cambiar ..."
+
+#: src/abstract.py:717 src/specialwidgets.py:188
+msgid "Yes"
+msgstr "Si"
+
+#: src/abstract.py:719 src/specialwidgets.py:185
+msgid "No"
+msgstr "No"
+
+#: src/app.py:136
+#, fuzzy
+msgid ""
+"You should configure sound from the 'Sound' page of the preferences window."
+msgstr "Ahora debería configurar el sonido desde la ventana de preferencias"
+
+#: src/app.py:158
+msgid "Error loading python module:"
+msgstr "Error en la carga del módulo python"
+
+#: src/app.py:159
+msgid ""
+"You should configure sound from the preferences window, and try to use an "
+"external midi player. Or try to recompile the program and check for error "
+"messages to see why the module is not built."
+msgstr ""
+
+#: src/app.py:267
+msgid ""
+"You have not selected email program. You can do so in the preferences window."
+msgstr ""
+"No ha seleccionado un programa de e-mail. Puede hacerlo desde la ventana de "
+"preferencias."
+
+#: src/app.py:294
+#, fuzzy, python-format
+msgid ""
+"Lessonfile not found:\n"
+"%s"
+msgstr "Archivo de lección"
+
+#: src/app.py:306
+#, python-format
+msgid ""
+"Bad url parameter in link: '%s'.\n"
+"Trying to continue anyway."
+msgstr ""
+"URL errónea en la dirección: '%s'.\n"
+"Intentando continuar de todas formas."
+
+#: src/chord.py:140 src/chordvoicing.py:176
+msgid "Chord type"
+msgstr "Tipo de acorde"
+
+#: src/chord.py:145
+msgid "Inversion"
+msgstr "Inversión"
+
+#: src/chord.py:151
+msgid "Toptone"
+msgstr "Nota superior"
+
+#: src/chord.py:165 src/chordvoicing.py:140
+msgid "_New chord"
+msgstr "Nuevo acorde"
+
+#: src/chord.py:170 src/chordvoicing.py:144 src/idbyname.py:111
+#: src/singanswer.py:58
+msgid "Repeat _arpeggio"
+msgstr "Repetir el arpegio"
+
+#: src/chord.py:172 src/chordvoicing.py:145 src/compareintervals.py:137
+#: src/elembuilder.py:114 src/harmonicinterval.py:180
+#: src/harmonicprogressiondictation.py:64 src/idbyname.py:116
+#: src/identifybpm.py:127 src/idtone.py:143 src/melodicinterval.py:91
+#: src/rhythm.py:201 src/rhythmtapping.py:140
+msgid "_Give up"
+msgstr "Abandonar"
+
+#: src/chord.py:182
+msgid "Chord types to ask"
+msgstr "Tipo de acorde"
+
+#: src/chord.py:220 src/chord.py:485
+msgid "root position"
+msgstr "Posición fundamental"
+
+#: src/chord.py:222 src/chord.py:487
+#, python-format
+msgid "%i. inversion"
+msgstr "%i. inversión"
+
+#: src/chord.py:248 lesson-files/altered-1:14 lesson-files/chord-7b9-maj79:13
+#: lesson-files/chord-dim-aug:13 lesson-files/chord-dim-aug-min-major:10
+#: lesson-files/chord-m7-7:13 lesson-files/chord-m7-7-maj7-m7b5-dim7:13
+#: lesson-files/chord-m9-9:13 lesson-files/chord-m9-9-7b9-maj79:13
+#: lesson-files/chord-maj7-m7b5-dim7:13 lesson-files/chord-min-major:13
+#: lesson-files/chord-min-major-7:13
+#, fuzzy
+msgid "Identify the chord"
+msgstr "Identificar el tipo de acorde"
+
+#: src/chord.py:279 src/chord.py:343 src/chord.py:410 src/chordvoicing.py:281
+#: src/compareintervals.py:236 src/elembuilder.py:166
+#: src/harmonicinterval.py:251 src/harmonicprogressiondictation.py:90
+#: src/idbyname.py:273 src/idtone.py:229 src/melodicinterval.py:202
+#: src/rhythm.py:143
+msgid "Correct"
+msgstr "Correcto"
+
+#: src/chord.py:286 src/chord.py:348 src/chord.py:415 src/chordvoicing.py:269
+#: src/chordvoicing.py:288 src/compareintervals.py:242 src/elembuilder.py:77
+#: src/elembuilder.py:176 src/harmonicinterval.py:256
+#: src/harmonicprogressiondictation.py:95 src/idbyname.py:281
+#: src/identifybpm.py:185 src/idtone.py:236 src/melodicinterval.py:208
+#: src/nameinterval.py:182 src/rhythm.py:131
+msgid "Wrong"
+msgstr "Incorrecto"
+
+#: src/chord.py:465 src/chord.py:470 src/chordvoicing.py:230
+#: src/chordvoicing.py:261 src/chordvoicing.py:330
+msgid "Click 'New chord' to begin."
+msgstr "Haga clic en 'Nuevo' para iniciar"
+
+#: src/chord.py:501
+#, python-format
+msgid "%(one)s, %(two)s and %(three)s"
+msgstr "%(one)s,·%(two)s·y·%(three)s"
+
+#: src/chord.py:503
+#, python-format
+msgid "%(one)s and %(two)s"
+msgstr "%(one)s·y·%(two)s"
+
+#: src/chordvoicing.py:112
+msgid "Identify chord type"
+msgstr "Identificar el tipo de acorde"
+
+#: src/chordvoicing.py:121
+msgid "Chord voicing"
+msgstr "Inversiones de acordes"
+
+#: src/chordvoicing.py:179 src/chordvoicing.py:325 src/compareintervals.py:295
+#: src/compareintervals.py:329 src/harmonicinterval.py:311
+#: src/melodicinterval.py:245 src/rhythm.py:296 src/rhythmtapping.py:174
+msgid "You have to solve this question first."
+msgstr "Primero debe responder esta pregunta correctamente."
+
+#: src/chordvoicing.py:227 src/idbyname.py:230 src/idbyname.py:338
+msgid "Right click is not allowed for this lesson file."
+msgstr "El botón derecho del ratón se ha deshabilitado para está lección."
+
+#: src/chordvoicing.py:233 src/idbyname.py:238 src/idbyname.py:242
+#: src/idbyname.py:339 src/idbyname.py:340
+msgid "You should try to guess before right-clicking."
+msgstr "Debes intentar acertar antes de pulsar el botón derecho del ratón"
+
+#: src/chordvoicing.py:265
+msgid "Correct, now stack the tones"
+msgstr "Bien, ahora ordena las notas correctamente"
+
+#: src/chordvoicing.py:271 src/chordvoicing.py:326
+msgid "Type is already solved, now specify voicing."
+msgstr "Ya resolvió este. Ahora especifique las voces."
+
+#: src/compareintervals.py:124
+msgid ""
+"F_irst interval\n"
+"is largest"
+msgstr ""
+"El primer intervalo\n"
+"es el más grande"
+
+#: src/compareintervals.py:127
+msgid ""
+"The intervals\n"
+"are _equal"
+msgstr ""
+"Los intervalos\n"
+"son iguales"
+
+#: src/compareintervals.py:130
+msgid ""
+"_Last interval\n"
+"is largest"
+msgstr ""
+"El segundo intervalo\n"
+"es el más grande"
+
+#: src/compareintervals.py:133 src/elembuilder.py:103
+#: src/harmonicprogressiondictation.py:50 src/idbyname.py:103
+#: src/idbyname.py:389 src/nameinterval.py:134 src/rhythm.py:198
+#: src/rhythmtapping.py:132 src/singanswer.py:54 src/singchord.py:47
+#: src/twelvetone.py:68
+msgid "_New"
+msgstr "Nuevo"
+
+#: src/compareintervals.py:150
+msgid "Harmonic"
+msgstr "Armónico"
+
+#: src/compareintervals.py:153
+#, fuzzy
+msgid "Melodic"
+msgstr "Melódico ascendente."
+
+#: src/compareintervals.py:160
+msgid "First interval:"
+msgstr "Primer intervalo:"
+
+#: src/compareintervals.py:171
+msgid "Last interval:"
+msgstr "Ultimo intervalo:"
+
+#: src/compareintervals.py:227 src/harmonicinterval.py:246
+#: src/harmonicprogressiondictation.py:85 src/idbyname.py:268
+#: src/idbyname.py:341 src/idtone.py:224 src/idtone.py:265
+msgid "Correct, but you have already solved this question"
+msgstr "Correcto, pero ya habías respondido correctamente"
+
+#: src/compareintervals.py:229 src/harmonicinterval.py:248
+#: src/harmonicprogressiondictation.py:87 src/idbyname.py:270
+#: src/idbyname.py:342 src/idtone.py:226 src/idtone.py:266
+msgid "Wrong, but you have already solved this question"
+msgstr "Incorrecto, pero ya habías respondido correctamente antes"
+
+#: src/compareintervals.py:254 src/compareintervals.py:327
+msgid "Last interval is largest"
+msgstr ""
+"El 2do. intervalo\n"
+"es mayor"
+
+#: src/compareintervals.py:256
+msgid "The intervals are equal"
+msgstr ""
+"Los intervalos\n"
+"son iguales"
+
+#: src/compareintervals.py:258 src/compareintervals.py:328
+msgid "First interval is largest"
+msgstr ""
+"El 1er. intervalo\n"
+"es más grande"
+
+#: src/compareintervals.py:259 src/compareintervals.py:327
+#: src/compareintervals.py:328 src/harmonicinterval.py:218 src/idbyname.py:215
+#: src/idtone.py:249 src/melodicinterval.py:129
+#, python-format
+msgid "The answer is: %s"
+msgstr "La respuesta es: %s"
+
+#: src/compareintervals.py:298 src/compareintervals.py:330
+msgid "You have to configure the exercise properly"
+msgstr "Debe configurar correctamente este ejercicio"
+
+#: src/compareintervals.py:333 src/elembuilder.py:162 src/elembuilder.py:266
+#: src/idbyname.py:235 src/idbyname.py:263 src/idbyname.py:361
+#: src/nameinterval.py:148 src/nameinterval.py:160 src/nameinterval.py:203
+#: src/nameinterval.py:206 src/rhythm.py:260 src/rhythm.py:338
+#: src/singanswer.py:118 src/singanswer.py:121
+msgid "Click 'New' to begin."
+msgstr "Haga clic en 'Nuevo' para iniciar"
+
+#: src/configwindow.py:51
+msgid "GNU Solfege Preferences"
+msgstr "Preferencias de GNU Solfege"
+
+#: src/configwindow.py:67
+msgid "Midi stuff"
+msgstr "Parámetros Midi"
+
+#: src/configwindow.py:69
+msgid "Tempo"
+msgstr "_Tempo"
+
+#: src/configwindow.py:75
+msgid "_Default bpm:"
+msgstr "Tempo por defecto (bpm):"
+
+#: src/configwindow.py:80
+msgid "A_rpeggio bpm:"
+msgstr "Tempo para los arpegios (bpm):"
+
+#: src/configwindow.py:83
+msgid "Preferred instrument"
+msgstr "Instrumento preferido"
+
+#: src/configwindow.py:89
+msgid "Chord instruments"
+msgstr "Instrumento medio"
+
+#: src/configwindow.py:93
+msgid "Use different instruments for chords and harmonic intervals."
+msgstr "Usar diferentes instrumentos para los acordes e intervalos armónicos."
+
+#: src/configwindow.py:96
+#, fuzzy
+msgid "Preferred percussion instruments"
+msgstr "Instrumento preferido"
+
+#: src/configwindow.py:99
+#, fuzzy
+msgid "Count in:"
+msgstr "Cuenta"
+
+#: src/configwindow.py:103
+#, fuzzy
+msgid "Rhythm:"
+msgstr "Ritmo"
+
+#: src/configwindow.py:110
+msgid "User"
+msgstr "Usuario"
+
+#: src/configwindow.py:112
+msgid "User's voice"
+msgstr "Voz del usuario"
+
+#: src/configwindow.py:118
+msgid "Highest note user can sing:"
+msgstr "La nota más aguda que pueda cantar el usuario:"
+
+#: src/configwindow.py:125
+msgid "Lowest note user can sing:"
+msgstr "La nota más grave que pueda cantar el usuario:"
+
+#: src/configwindow.py:135
+msgid "Sex"
+msgstr "Sexo"
+
+#: src/configwindow.py:137
+msgid "_Male"
+msgstr "Voz masculina"
+
+#: src/configwindow.py:140
+msgid "_Female or child"
+msgstr "Voz femenina o infantil"
+
+#: src/configwindow.py:149
+msgid "Gui"
+msgstr "Interfaz gráfica"
+
+#: src/configwindow.py:151 src/configwindow.py:256 src/configwindow.py:346
+msgid "External programs"
+msgstr "Programa de correo electrónico"
+
+#: src/configwindow.py:158
+msgid "_Mail program:"
+msgstr "Programa de correo electrónico"
+
+#: src/configwindow.py:169
+msgid "MIDI to WAV convertor:"
+msgstr ""
+
+#: src/configwindow.py:180
+msgid "WAV to MP3 convertor:"
+msgstr ""
+
+#: src/configwindow.py:191
+msgid "WAV to OGG convertor:"
+msgstr ""
+
+#: src/configwindow.py:194
+msgid "Misc"
+msgstr ""
+
+#: src/configwindow.py:198
+msgid "_User resizeable main window"
+msgstr "Se puede cambiar el tamaño de la ventana principal"
+
+#: src/configwindow.py:202
+msgid "E_xpert mode"
+msgstr "Modo E_xperto"
+
+#: src/configwindow.py:209
+msgid "Select _language:"
+msgstr "Seleccione idioma"
+
+#: src/configwindow.py:225
+msgid "You have to restart the program for the language change to take effect."
+msgstr "Debe reiniciar el programa para que el cambio de idioma tome efecto."
+
+#: src/configwindow.py:237
+msgid "_Not allow new question before the old is solved"
+msgstr "No autorizar una nueva pregunta hasta que la anterior esté resuelta"
+
+#: src/configwindow.py:240
+msgid "_Repeat question if the answer was wrong"
+msgstr "Repetir la pregunta si la respuesta es incorrecta"
+
+#: src/configwindow.py:254 src/configwindow.py:366
+msgid "Sound setup"
+msgstr "Configuración del sonido"
+
+#: src/configwindow.py:267 src/configwindow.py:281 src/configwindow.py:356
+msgid "Test"
+msgstr "Prueba"
+
+#: src/configwindow.py:269
+msgid ".wav file player"
+msgstr "Reproductor de .wav"
+
+#: src/configwindow.py:283
+msgid ".midi file player"
+msgstr "Reproductor de .mid"
+
+#: src/configwindow.py:291 src/configwindow.py:344
+msgid "Midi setup"
+msgstr "Parámetros Midi"
+
+#: src/configwindow.py:294 src/configwindow.py:374
+msgid "_No sound"
+msgstr "No hay sonido"
+
+#: src/configwindow.py:299
+msgid "Use _device"
+msgstr "Utilizar el periférico"
+
+#: src/configwindow.py:317
+msgid "_My sound card is Sound Blaster AWE32, AWE64 or pnp32"
+msgstr "Mi tarjeta de sonido es una Sound Blaster AWE32, AWE64 or pnp32"
+
+#: src/configwindow.py:327 src/configwindow.py:388
+msgid "Use _external midiplayer"
+msgstr "Utilizar el programa midi"
+
+#: src/configwindow.py:339 src/configwindow.py:398
+msgid "_Apply changes and play test sound"
+msgstr "_Aplicar y comprobar el sonido"
+
+#: src/configwindow.py:368
+msgid ""
+"Solfege has two ways to play midi files. It is recommended to use Windows "
+"multimedia output. An external midiplayer can be useful if your soundcard "
+"lacks a hardware synth, in which case you have to use a program like "
+"timidity to play the music."
+msgstr ""
+"\"Solfege\" puede producir sonido de dos maneras diferentes. Se recomienda "
+"utilizar la salida multimedia de Windows. El soporte para un midiplayer "
+"externo sólo es útil cuando su tarjeta de sonido no sea capaz de generar "
+"sonidos sintetizados, y requiera de un programa de síntesis externo como "
+"timidity para generar sonidos."
+
+#: src/configwindow.py:379
+msgid "_Windows multimedia output, synth number:"
+msgstr "Salida de Windows multimedia, sintetizador número:"
+
+#: src/const.py:31
+msgid "unison"
+msgstr "unísono"
+
+#: src/const.py:31 mpd/interval.py:39
+msgid "minor second"
+msgstr "2ªm"
+
+#: src/const.py:31 mpd/interval.py:40
+msgid "major second"
+msgstr "2ª mayor"
+
+#: src/const.py:32 mpd/interval.py:44
+msgid "minor third"
+msgstr "3ª menor"
+
+#: src/const.py:32 mpd/interval.py:45
+msgid "major third"
+msgstr "3ª mayor"
+
+#: src/const.py:32 mpd/interval.py:49
+#, fuzzy
+msgid "perfect fourth"
+msgstr ""
+"4ª\n"
+"justa"
+
+#: src/const.py:33 mpd/interval.py:52
+msgid "diminished fifth"
+msgstr "5ª disminuída"
+
+#: src/const.py:33 mpd/interval.py:53
+msgid "perfect fifth"
+msgstr "5ª justa"
+
+#: src/const.py:34 mpd/interval.py:57
+msgid "minor sixth"
+msgstr "6ª menor"
+
+#: src/const.py:34 mpd/interval.py:58
+msgid "major sixth"
+msgstr "6ª mayor"
+
+#: src/const.py:35 mpd/interval.py:62
+msgid "minor seventh"
+msgstr "7ª menor"
+
+#: src/const.py:35 mpd/interval.py:63
+msgid "major seventh"
+msgstr "7ª mayor"
+
+#: src/const.py:36 mpd/interval.py:67
+msgid "perfect octave"
+msgstr "8ª"
+
+#: src/const.py:37
+msgid "minor ninth"
+msgstr "9ª menor"
+
+#: src/const.py:37
+msgid "major ninth"
+msgstr "9ª mayor"
+
+#: src/const.py:38
+msgid "minor decim"
+msgstr "10ª menor"
+
+#: src/const.py:38
+msgid "major decim"
+msgstr "10ª mayor"
+
+#: src/const.py:40
+msgid "interval|u"
+msgstr "u"
+
+#: src/const.py:41
+msgid "interval|m2"
+msgstr "2ªm"
+
+#: src/const.py:41
+msgid "interval|M2"
+msgstr "2ªM"
+
+#: src/const.py:42
+msgid "interval|m3"
+msgstr "3ªm"
+
+#: src/const.py:42
+msgid "interval|M3"
+msgstr "3ªM"
+
+#: src/const.py:43
+msgid "interval|4"
+msgstr "4ª"
+
+#: src/const.py:43
+msgid "interval|d5"
+msgstr "5ªd"
+
+#: src/const.py:44
+msgid "interval|5"
+msgstr "5ª"
+
+#: src/const.py:45
+msgid "interval|m6"
+msgstr "6ªm"
+
+#: src/const.py:45
+msgid "interval|M6"
+msgstr "6ªM"
+
+#: src/const.py:46
+msgid "interval|m7"
+msgstr "7ªm"
+
+#: src/const.py:46
+msgid "interval|M7"
+msgstr "7ªM"
+
+#: src/const.py:47
+msgid "interval|8"
+msgstr "8ª"
+
+#: src/const.py:48
+msgid "interval|m9"
+msgstr "9ªm"
+
+#: src/const.py:48
+msgid "interval|M9"
+msgstr "9ªM"
+
+#: src/const.py:49
+msgid "interval|m10"
+msgstr "10ªm"
+
+#: src/const.py:49
+msgid "interval|M10"
+msgstr "10ªM"
+
+#: src/dataparser.py:153
+#, python-format
+msgid "Unknown name \"%(name)s\" in line %(line)i of file \"%(filename)s\":"
+msgstr ""
+
+#: src/dataparser.py:164
+#, python-format
+msgid "Syntax error in file \"%(filename)s\". %(expected)s"
+msgstr ""
+
+#: src/dataparser.py:171
+#, python-format
+msgid "Assignment to the reserved word \"%(word)s in the file \"%(filename)s\""
+msgstr ""
+
+#: src/dataparser.py:189
+#, python-format
+msgid "Unable to tokenize line %(lineno)i of the file \"%(filename)s\""
+msgstr ""
+
+#: src/dataparser.py:279
+#, python-format
+msgid ""
+"Token \"%(nottoken)s\" not found, found \"%(foundtoken)s\" of type %(type)s."
+msgstr ""
+
+#: src/dictation.py:63
+msgid "_Play the whole music"
+msgstr "Tocar todo"
+
+#: src/dictation.py:65 src/harmonicprogressiondictation.py:62
+#: src/idbyname.py:124
+msgid "_Show"
+msgstr "Mostrar"
+
+#: src/dictation.py:187
+#, python-format
+msgid "The lesson file '%s' contains no questions."
+msgstr "La lección '%s' no contiene preguntas."
+
+#: src/elembuilder.py:104 src/idbyname.py:104 src/rhythmtapping.py:134
+msgid "P_lay music"
+msgstr "Tocar música"
+
+#: src/elembuilder.py:106 src/idbyname.py:106 src/rhythmtapping.py:136
+msgid "_Display music"
+msgstr "Mostrar música"
+
+#: src/elembuilder.py:110 src/harmonicprogressiondictation.py:58
+msgid "Guess _answer"
+msgstr "Adivinar la respuesta"
+
+#: src/elembuilder.py:112 src/harmonicprogressiondictation.py:55
+msgid "Play _tonic"
+msgstr "Tocar la tónica"
+
+#: src/elembuilder.py:116 src/rhythm.py:204
+msgid "_Backspace"
+msgstr "Borrar"
+
+#: src/elembuilder.py:124
+msgid "elembuilder"
+msgstr ""
+
+#: src/elembuilder.py:160 src/harmonicinterval.py:231
+#: src/harmonicinterval.py:336 src/idbyname.py:261 src/idbyname.py:358
+#: src/melodicinterval.py:164 src/melodicinterval.py:261
+msgid "Click 'Start test' to begin."
+msgstr "Haga clic en 'Comenzar' para iniciar"
+
+#: src/harmonicinterval.py:176
+msgid "Repeat _melodic"
+msgstr "Repetir melodía"
+
+#: src/harmonicinterval.py:185
+msgid "Ask for these intervals"
+msgstr "Preguntar por estos intervalos"
+
+#: src/harmonicinterval.py:214 src/harmonicinterval.py:332
+msgid "Harmonic interval"
+msgstr "Intervalo armónico"
+
+#: src/harmonicinterval.py:238 src/melodicinterval.py:183
+msgid "Ignoring intervals greater than decim."
+msgstr "Ignorar los intervalos superiores a una décima"
+
+#: src/harmonicinterval.py:242 src/harmonicinterval.py:339
+#: src/melodicinterval.py:169 src/melodicinterval.py:264
+msgid "Click 'New interval' to begin."
+msgstr "Haga clic en 'Nuevo intervalo' para iniciar"
+
+#: src/harmonicinterval.py:317
+msgid "You have to select some intervals to practise."
+msgstr "Debe elegir algunos intervalos para la práctica."
+
+#: src/harmonicinterval.py:326 src/melodicinterval.py:251
+msgid "Identify the interval"
+msgstr "Identificar el intervalo"
+
+#: src/harmonicinterval.py:354 src/idbyname.py:380 src/melodicinterval.py:278
+#: src/singinterval.py:206
+msgid "_Start test"
+msgstr "Comenzar"
+
+#: src/harmonicprogressiondictation.py:78
+msgid "Harmonic progression dictation"
+msgstr "Dictado de progrésión armónica"
+
+#: src/helpbrowser.py:38
+msgid "Close the window"
+msgstr ""
+
+#: src/idbyname.py:113
+msgid "Repeat _slowly"
+msgstr "Repetir lentamente"
+
+#: src/idbyname.py:135
+msgid "Questions to ask"
+msgstr "Preguntas por hacer"
+
+#: src/idbyname.py:148
+msgid "Identify by name"
+msgstr "Identificar por el nombre"
+
+#: src/idbyname.py:324 src/idbyname.py:343
+msgid "You have to select some questions to practise."
+msgstr "Debe seleccionar algunas escalas para la práctica."
+
+#: src/identifybpm.py:126
+msgid "_New tempo"
+msgstr "Nuevo tempo"
+
+#: src/identifybpm.py:133
+msgid "Bpm"
+msgstr ""
+
+#: src/identifybpm.py:158
+#, fuzzy
+msgid "You have to select some tempos to practise."
+msgstr "Debe seleccionar algunas escalas para la prÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â¡ctica."
+
+#: src/identifybpm.py:177 src/identifybpm.py:188
+msgid "Click 'New tempo' to begin."
+msgstr "Haga clic en 'Nuevo tempo' para iniciar"
+
+#: src/identifybpm.py:180
+#, python-format
+msgid "Correct, it is %i"
+msgstr "correcto, es %i"
+
+#: src/idtone.py:115
+msgid ""
+"This exercise is disabled because some required features are missing from "
+"your computer. You should install PyGTK 2.8.0 or newer."
+msgstr ""
+
+#: src/idtone.py:138
+msgid "_New tone"
+msgstr "_Nueva nota."
+
+#: src/idtone.py:155
+msgid "Weight"
+msgstr "Peso"
+
+#: src/idtone.py:178
+msgid "Octave:"
+msgstr "Octava:"
+
+#: src/idtone.py:186
+msgid "When you guess wrong"
+msgstr "Cuando adivina incorrectamente"
+
+#: src/idtone.py:191
+msgid "Play warning sound"
+msgstr "Tocar sonido de advertencia"
+
+#: src/idtone.py:198 src/idtone.py:287 learningtree.txt:360
+msgid "Identify tone"
+msgstr "Identificar la nota"
+
+#: src/idtone.py:204
+msgid ""
+"You have to select some tones practise. Do this on the config page by "
+"setting the weight of tones to a value greater than zero."
+msgstr ""
+"Debe seleccionar algunas notas de práctica. Puede hacerlo en la páginade "
+"configuración asignando un peso mayor de cero a las notas."
+
+#: src/idtone.py:216
+#, python-format
+msgid "First tone is %s"
+msgstr "La 1era nota es %s"
+
+#: src/idtone.py:220 src/idtone.py:264 src/idtone.py:290
+msgid "Click 'New tone' to begin."
+msgstr "Haga clic en 'Nueva nota' para iniciar"
+
+#: src/inputwidgets.py:225
+msgid ""
+"Minor\n"
+"second"
+msgstr ""
+"2ª\n"
+"menor"
+
+#: src/inputwidgets.py:226
+msgid ""
+"Major\n"
+"second"
+msgstr ""
+"2ª\n"
+"mayor"
+
+#: src/inputwidgets.py:227
+msgid ""
+"Minor\n"
+"third"
+msgstr ""
+"3ª\n"
+"menor"
+
+#: src/inputwidgets.py:228
+msgid ""
+"Major\n"
+"third"
+msgstr ""
+"3ª\n"
+"mayor"
+
+#: src/inputwidgets.py:229
+msgid ""
+"Perfect\n"
+"fourth"
+msgstr ""
+"4ª\n"
+"justa"
+
+#: src/inputwidgets.py:230
+msgid ""
+"Diminished\n"
+"fifth"
+msgstr ""
+"5ª\n"
+"disminuída"
+
+#: src/inputwidgets.py:231
+msgid ""
+"Perfect\n"
+"fifth"
+msgstr ""
+"5ª\n"
+"justa"
+
+#: src/inputwidgets.py:232
+msgid ""
+"Minor\n"
+"sixth"
+msgstr ""
+"6ª\n"
+"menor"
+
+#: src/inputwidgets.py:233
+msgid ""
+"Major\n"
+"sixth"
+msgstr ""
+"6ª\n"
+"mayor"
+
+#: src/inputwidgets.py:234
+msgid ""
+"Minor\n"
+"seventh"
+msgstr ""
+"7ª\n"
+"menor"
+
+#: src/inputwidgets.py:235
+msgid ""
+"Major\n"
+"seventh"
+msgstr ""
+"7ª\n"
+"mayor"
+
+#: src/inputwidgets.py:236
+msgid ""
+"Perfect\n"
+"octave"
+msgstr ""
+"8ª\n"
+"justa"
+
+#: src/inputwidgets.py:237
+msgid ""
+"Minor\n"
+"ninth"
+msgstr ""
+"9ª\n"
+"menor"
+
+#: src/inputwidgets.py:238
+msgid ""
+"Major\n"
+"ninth"
+msgstr ""
+"9ª\n"
+"mayor"
+
+#: src/inputwidgets.py:239
+msgid ""
+"Minor\n"
+"decim"
+msgstr ""
+"10ª\n"
+"menor"
+
+#: src/inputwidgets.py:240
+msgid ""
+"Major\n"
+"decim"
+msgstr ""
+"10ª\n"
+"mayor"
+
+#: src/inputwidgets.py:641 src/inputwidgets.py:647
+msgid "Piano"
+msgstr "Piano"
+
+#: src/inputwidgets.py:641 src/inputwidgets.py:655
+msgid "Guitar"
+msgstr "Guitarra"
+
+#: src/inputwidgets.py:641 src/inputwidgets.py:658
+msgid "Bass"
+msgstr "Bajo"
+
+#: src/inputwidgets.py:642 src/inputwidgets.py:661
+msgid "5 string bass"
+msgstr "Bajo de 5 cuerdas"
+
+#: src/inputwidgets.py:642 src/inputwidgets.py:665
+msgid "6 string bass"
+msgstr "Bajo de 6 cuerdas"
+
+#: src/inputwidgets.py:643 src/inputwidgets.py:649
+msgid "Accordion B griff"
+msgstr "Acordeón en Si"
+
+#: src/inputwidgets.py:643 src/inputwidgets.py:651
+msgid "Accordion C griff"
+msgstr "Acordeón en Do"
+
+#: src/inputwidgets.py:644 src/inputwidgets.py:653
+msgid "Accordion (system used in Finland)"
+msgstr "Acordeón finlandés"
+
+#: src/instrumentselector.py:50
+msgid "_Instrument:"
+msgstr "Instrumento:"
+
+#: src/instrumentselector.py:72
+msgid "_Velocity:"
+msgstr "Velocidad:"
+
+#: src/instrumentselector.py:124
+msgid "Velocity:"
+msgstr "Volumen:"
+
+#: src/instrumentselector.py:184
+msgid "Highest instrument"
+msgstr "Instrumento más agudo"
+
+#: src/instrumentselector.py:188
+msgid "Middle instrument"
+msgstr "Instrumento medio"
+
+#: src/instrumentselector.py:193
+msgid "Lowest instrument"
+msgstr "Instrumento más bajo"
+
+#: src/learning_tree_editor.py:429
+msgid "Select lesson file"
+msgstr "Seleccione la lección"
+
+#: src/learning_tree_editor.py:448
+msgid "Used"
+msgstr "Usado"
+
+#: src/learning_tree_editor.py:452 src/learning_tree_editor.py:685
+#: src/trainingsetdlg.py:82
+msgid "Title"
+msgstr "Título"
+
+#: src/learning_tree_editor.py:456
+msgid "Filename"
+msgstr "_Archivo"
+
+#: src/learning_tree_editor.py:470
+msgid "Module:"
+msgstr "Módulo:"
+
+#: src/learning_tree_editor.py:478 src/learning_tree_editor.py:480
+msgid "Used by topic(s):"
+msgstr "En uso por el tema."
+
+#: src/learning_tree_editor.py:515
+msgid "_Show files used in other topics"
+msgstr "Mostrar ficheros usados en otros temas."
+
+#: src/learning_tree_editor.py:567
+#, fuzzy
+msgid "Learning tree:"
+msgstr "Temario"
+
+#: src/learning_tree_editor.py:586
+msgid "Default visibility:"
+msgstr "Visibilidad por defecto:"
+
+#: src/learning_tree_editor.py:600
+msgid "New toplevel menu"
+msgstr ""
+
+#: src/learning_tree_editor.py:601
+msgid "New submenu"
+msgstr ""
+
+#: src/learning_tree_editor.py:603
+msgid "Add lesson"
+msgstr "Añadir lección"
+
+#: src/learning_tree_editor.py:606
+#, fuzzy
+msgid "Delete"
+msgstr "Borrar nota"
+
+#: src/learning_tree_editor.py:609
+msgid "Move topic up"
+msgstr "Subir tema"
+
+#: src/learning_tree_editor.py:612
+msgid "Move topic down"
+msgstr "Bajar tema"
+
+#: src/learning_tree_editor.py:615
+#, fuzzy
+msgid "Move lesson up"
+msgstr "Subir tema"
+
+#: src/learning_tree_editor.py:619
+#, fuzzy
+msgid "Move lesson down"
+msgstr "Bajar tema"
+
+#: src/learning_tree_editor.py:640
+msgid "Lesson filename:"
+msgstr "Archivo de lección"
+
+#: src/learning_tree_editor.py:646
+msgid "Exercise module:"
+msgstr "Ejercicios"
+
+#: src/learning_tree_editor.py:657
+msgid "New dependency"
+msgstr "Nueva dependencia"
+
+#: src/learning_tree_editor.py:661
+msgid "Delete dependency"
+msgstr "Borrar dependencia"
+
+#: src/learning_tree_editor.py:722 src/learning_tree_editor.py:781
+msgid "The file is not saved. Save before changing?"
+msgstr ""
+
+#: src/learning_tree_editor.py:767 src/learning_tree_editor.py:968
+msgid "Menu"
+msgstr ""
+
+#: src/learning_tree_editor.py:769 src/learning_tree_editor.py:1011
+msgid "Submenu"
+msgstr ""
+
+#: src/learning_tree_editor.py:776 src/learning_tree_editor.py:1108
+#, fuzzy
+msgid "Lesson"
+msgstr "Sesión"
+
+#: src/learning_tree_editor.py:783 src/learning_tree_editor.py:790
+#, fuzzy
+msgid "Create new learning tree"
+msgstr "Temario por defecto"
+
+#: src/learning_tree_editor.py:797
+msgid "Do not enter any directory names, only the filename."
+msgstr ""
+
+#: src/learning_tree_editor.py:798
+#, fuzzy
+msgid "File name:"
+msgstr "_Archivo"
+
+#: src/learning_tree_editor.py:810
+msgid "Enter a file name with no directory."
+msgstr ""
+
+#: src/learning_tree_editor.py:813
+msgid "The file already exists."
+msgstr ""
+
+#: src/learning_tree_editor.py:834 src/learning_tree_editor.py:902
+#, python-format
+msgid ""
+"An error occurred while saving the file:\n"
+"%s"
+msgstr ""
+"Ha ocurrido un error mientras se guardaba el fichero:\n"
+"%s"
+
+#: src/learning_tree_editor.py:843
+msgid "Save changes?"
+msgstr "¿Guardar cambios?"
+
+#: src/learning_tree_editor.py:875
+#, python-format
+msgid "Dependencies of the lesson '%s'"
+msgstr "Dependencias de la lección '%s'"
+
+#: src/learning_tree_editor.py:878
+#, python-format
+msgid "No dependencies for the lesson '%s'."
+msgstr "No hay dependencias para la lección '%s'"
+
+#: src/learning_tree_editor.py:920 src/lessonfile_editor_main.py:304
+msgid "Save as..."
+msgstr "Guardar como..."
+
+#: src/learning_tree_editor.py:933 src/learning_tree_editor.py:940
+#, fuzzy
+msgid "Create new menu"
+msgstr "Crear nuevo tema"
+
+#: src/learning_tree_editor.py:947
+#, fuzzy
+msgid "Menu name:"
+msgstr "Archivo de lección"
+
+#: src/learning_tree_editor.py:960 src/learning_tree_editor.py:1005
+msgid "The menu name is already used."
+msgstr ""
+
+#: src/learning_tree_editor.py:964 src/learning_tree_editor.py:1002
+msgid "An empty string is not allowed."
+msgstr ""
+
+#: src/learning_tree_editor.py:975
+msgid "New topic"
+msgstr "Nuevo tema"
+
+#: src/learning_tree_editor.py:982
+msgid "Create new topic"
+msgstr "Crear nuevo tema"
+
+#: src/learning_tree_editor.py:989
+msgid "Topic name:"
+msgstr "Nombre del tema:"
+
+#: src/learning_tree_editor.py:1145
+msgid ""
+"Lessons depend on this lesson. Delete anyway, and update the dependency list "
+"for lessons that depend on this lesson?"
+msgstr ""
+"Hay lecciones que dependen de esta: ¿Desea borrarla de todas formas y "
+"actualizar la lista de dependencias?"
+
+#: src/learning_tree_editor.py:1186
+msgid ""
+"The default learning tree is write protected in your install. This is "
+"normal. If you want to edit a learning tree, you have to select one of the "
+"trees stored in .solfege/learningtrees in your home directory."
+msgstr ""
+
+#: src/lessonfile_editor_main.py:34 src/lessonfile_editor_main.py:97
+msgid "Add noteheads"
+msgstr "Añadir anotación"
+
+#: src/lessonfile_editor_main.py:35
+msgid "Add sharp"
+msgstr "Añadir sostenido"
+
+#: src/lessonfile_editor_main.py:36
+msgid "Add double-sharp"
+msgstr "Añadir doble sostenido"
+
+#: src/lessonfile_editor_main.py:37 src/lessonfile_editor_main.py:103
+msgid "Remove accidentals"
+msgstr "Eliminar alteraciones"
+
+#: src/lessonfile_editor_main.py:38
+msgid "Add flat"
+msgstr "Añadir bemol"
+
+#: src/lessonfile_editor_main.py:39
+msgid "Add double-flat"
+msgstr "Añadir doble bemol"
+
+#: src/lessonfile_editor_main.py:40
+msgid "Delete tone"
+msgstr "Borrar nota"
+
+#: src/lessonfile_editor_main.py:47
+msgid "GNU Solfege lesson file editor"
+msgstr "Editor de lecciones de GNU Solfege"
+
+#: src/lessonfile_editor_main.py:75 src/mainwin.py:342
+msgid "_File"
+msgstr "_Archivo"
+
+#: src/lessonfile_editor_main.py:81 src/mainwin.py:357
+msgid "_Help"
+msgstr "_Ayuda"
+
+#: src/lessonfile_editor_main.py:83
+msgid "_About"
+msgstr "_Acerca de..."
+
+#: src/lessonfile_editor_main.py:87
+msgid "Go to the first question"
+msgstr "Ir a la primera pregunta"
+
+#: src/lessonfile_editor_main.py:89
+msgid "Go to the previous question"
+msgstr "Ir a la pregunta anterior"
+
+#: src/lessonfile_editor_main.py:91
+msgid "Go to the next question"
+msgstr "Ir a la siguiente pregunta"
+
+#: src/lessonfile_editor_main.py:93
+msgid "Go to the last question"
+msgstr "Ir a la última pregunta"
+
+#: src/lessonfile_editor_main.py:95
+msgid "Add a new question"
+msgstr "Añadir nueva pregunta"
+
+#: src/lessonfile_editor_main.py:99
+msgid "Add sharps"
+msgstr "Añadir sostenidos"
+
+#: src/lessonfile_editor_main.py:101
+msgid "Add double-sharps"
+msgstr "Añadir dobles sostenidos"
+
+#: src/lessonfile_editor_main.py:105
+msgid "Add flats"
+msgstr "Añadir bemoles"
+
+#: src/lessonfile_editor_main.py:107
+msgid "Add double-flats"
+msgstr "Añadir dobles bemoles"
+
+#: src/lessonfile_editor_main.py:109
+msgid "Erase tones"
+msgstr "Borrar notas"
+
+#: src/lessonfile_editor_main.py:188
+msgid "Questions"
+msgstr "Preguntas"
+
+#: src/lessonfile_editor_main.py:189
+msgid "Enter new chords using the mouse"
+msgstr "Introducir nuevo acorde con el ratón"
+
+#: src/lessonfile_editor_main.py:199
+msgid "Question title:"
+msgstr "Título de la pregunta:"
+
+#: src/lessonfile_editor_main.py:206
+msgid "Lessonfile header"
+msgstr "Cabecera de la lección"
+
+#: src/lessonfile_editor_main.py:210
+msgid "File title:"
+msgstr "Título:"
+
+#: src/lessonfile_editor_main.py:219
+msgid "Content:"
+msgstr "Contenido:"
+
+#: src/lessonfile_editor_main.py:231
+msgid "You have unsaved data. Proceed anyway?"
+msgstr "No ha guardado los cambios. ¿Proceder igualmente?"
+
+#: src/lessonfile_editor_main.py:250
+msgid "No file"
+msgstr "Sin ficheros"
+
+#: src/lessonfile_editor_main.py:251
+#, python-format
+msgid "question %(idx)i of %(count)i"
+msgstr "pregunta·%(idx)i·of·%(count)i"
+
+#: src/lessonfile_editor_main.py:271
+#, fuzzy, python-format
+msgid "The exercise module '%s' is not supported yet. Cannot edit this file."
+msgstr ""
+"El contenido de la lección '%s' no esta soportado aun. No se puede editar el "
+"fichero."
+
+#: src/lessonfile_editor_main.py:277
+msgid "Open..."
+msgstr "Abrir..."
+
+#: src/lessonfile_editor_main.py:290
+#, python-format
+msgid "Loading file '%(filename)s' failed: %(msg)s"
+msgstr "La carga del fichero '%(filename)s' ha fallado: '%(msg)s'"
+
+#: src/lessonfile_editor_main.py:317
+msgid "Save..."
+msgstr "Guardar..."
+
+#: src/lessonfilegui.py:27
+msgid "Resolve lesson_id crash"
+msgstr ""
+
+#: src/lessonfilegui.py:33
+msgid "Lesson_id crash"
+msgstr ""
+
+#: src/lessonfilegui.py:37
+msgid ""
+"The lesson_id has to be unique for each lesson file. Please select which "
+"lesson file shall keep the current lesson_id. The preselected file is "
+"Solfege's educated guess. Press 'Cancel' to postpone the decision."
+msgstr ""
+
+#: src/lessonfile.py:998
+#, python-format
+msgid ""
+"Question number %(index)i in the lesson file \"%(filename)s\" is missing the "
+"\"question_text\" variable."
+msgstr ""
+
+#: src/lessonfile.py:1142
+msgid ""
+"This page lists all the lesson files that Solfege can find. You can click on "
+"the links to start practising."
+msgstr ""
+"Esta página muestra todas las lecciones que Solfege puede encontra.Puede "
+"hacer click en los enlaces para iniciar la práctica."
+
+#: src/mainwin.py:60
+msgid "Show warranty and copyright."
+msgstr ""
+
+#: src/mainwin.py:62
+msgid "Do not show the startup window."
+msgstr ""
+
+#: src/mainwin.py:67
+msgid "Display more info about the sound setup."
+msgstr ""
+
+#: src/mainwin.py:70
+msgid ""
+"Do not play any sounds. Instead some data is printed to standard output. Use "
+"this for debugging and porting."
+msgstr ""
+
+#: src/mainwin.py:72
+msgid "Include features used by the Solfege developers to debug the program."
+msgstr ""
+
+#: src/mainwin.py:75
+msgid "Disable the exception handling in Gui.standard_exception_handler."
+msgstr ""
+
+#: src/mainwin.py:77
+msgid ""
+"For debugging only: Select questions from lesson files in sequential order."
+msgstr ""
+
+#: src/mainwin.py:80
+msgid "Run without using gtkhtml2 even if it is installed."
+msgstr ""
+
+#: src/mainwin.py:83
+msgid ""
+"Do not use the cairo version of input widgets, even if we run gtk+ 2.8.0 or "
+"newer."
+msgstr ""
+
+#: src/mainwin.py:86
+msgid "Show GtkWarnings and PangoWarnings in the traceback window."
+msgstr ""
+
+#: src/mainwin.py:137
+#, python-format
+msgid "Starting GNU Solfege %s"
+msgstr "Iniciando GNU Solfege %s"
+
+#: src/mainwin.py:218
+msgid "Close"
+msgstr "Cerrar "
+
+#: src/mainwin.py:336
+#, python-format
+msgid "Learning tree '%s' not found. Using default tree."
+msgstr "Temario '%s' no encontrado. Usando temario por defecto."
+
+#: src/mainwin.py:346 learningtree.txt:401
+msgid "The_ory"
+msgstr "_Teoria"
+
+#: src/mainwin.py:347 learningtree.txt:5
+msgid "_Intervals"
+msgstr "_Intervalos"
+
+#: src/mainwin.py:349
+msgid "_Edit"
+msgstr "Editar"
+
+#: src/mainwin.py:350
+#, fuzzy
+msgid "Edit learning tree"
+msgstr "Temario"
+
+#: src/mainwin.py:352
+msgid "_Tests"
+msgstr "Pruebas"
+
+#: src/mainwin.py:353
+msgid "New training set editor window"
+msgstr ""
+
+#: src/mainwin.py:358
+msgid "_Help on the current exercise"
+msgstr "_Ayuda sobre el ejercicio en curso"
+
+#: src/mainwin.py:360
+#, fuzzy
+msgid "_Music theory on the current exercise"
+msgstr "_Ayuda sobre el ejercicio en curso"
+
+#: src/mainwin.py:361
+msgid "_User manual"
+msgstr ""
+
+#: src/mainwin.py:363
+msgid "All installed _lesson files"
+msgstr "Todos los archivos de lecciones"
+
+#: src/mainwin.py:365
+msgid "_Mailinglists, web page etc."
+msgstr "Listas de correo, página web, etc"
+
+#: src/mainwin.py:367
+msgid "Reporting _bugs"
+msgstr "Reporte de bugs"
+
+#: src/mainwin.py:370
+msgid "See your bug reports"
+msgstr "Vea sus informes de error"
+
+#: src/mainwin.py:397 src/mainwin.py:403
+msgid "Learning tree"
+msgstr "Temario"
+
+#: src/mainwin.py:398 src/mainwin.py:404
+msgid "Default learning tree"
+msgstr "Temario por defecto"
+
+#: src/mainwin.py:408
+msgid "Debugging"
+msgstr ""
+
+#: src/mainwin.py:450 src/mainwin.py:451 src/trainingsetdlg.py:215
+#: src/trainingsetdlg.py:220
+msgid "name"
+msgstr "nombre"
+
+#: src/mainwin.py:460
+#, python-format
+msgid "%s (passed)"
+msgstr "%s (superadas)"
+
+#: src/mainwin.py:507
+msgid "Question"
+msgstr "Pregunta"
+
+#: src/mainwin.py:514
+msgid "Please enter the email used when you submitted the bugs:"
+msgstr "Por favor, introduzca su e-mail cuando informe de un error:"
+
+#: src/mainwin.py:587
+#, python-format
+msgid ""
+"Failed to parse the music for question number %(idx)i in '%(lf)s':\n"
+"%(ex)s"
+msgstr ""
+"Sucedió un error al interpretar la música para la pregunta número %(idx)"
+"i·en·'%(lf)s':\n"
+"%(ex)s"
+
+#: src/mainwin.py:590 src/mainwin.py:626
+msgid "SOLFEGETRANSLATORS"
+msgstr ""
+"Daniel Tonda Castillo\n"
+"Diego Duchowney"
+
+#: src/mainwin.py:611
+msgid "(toolbar icons)"
+msgstr "(íconos de la barra de herramientas)"
+
+#: src/mainwin.py:612 src/mainwin.py:613
+msgid "(some lessonfiles)"
+msgstr "(algunas lecciones)"
+
+#: src/mainwin.py:614
+msgid "(sound code for the MS Windows port)"
+msgstr "(código de sonido para el port MS Windows)"
+
+#: src/mainwin.py:615
+msgid "(ported winmidi.c to gcc)"
+msgstr ""
+
+#: src/mainwin.py:616
+msgid "(spec file for SuSE 8.2)"
+msgstr ""
+
+#: src/mainwin.py:617
+msgid "(spec file cleanup)"
+msgstr ""
+
+#: src/mainwin.py:618
+msgid "(testing and portability fixes for FreeBSD)"
+msgstr ""
+
+#: src/mainwin.py:619 src/mainwin.py:620
+msgid "(the music font from Lilypond)"
+msgstr ""
+
+#: src/mainwin.py:621
+#, fuzzy
+msgid "(scale exercises)"
+msgstr "Otros Ejercicios"
+
+#: src/mainwin.py:736
+#, python-format
+msgid "The '%s' exercise module does not support test yet."
+msgstr ""
+
+#: src/melodicinterval.py:108 src/melodicinterval.py:257
+msgid "Melodic interval"
+msgstr "Intervalo melódico"
+
+#: src/melodicinterval.py:180
+msgid "You have already identified this interval"
+msgstr "Ya ha identificado éste intervalo"
+
+#: src/melodicinterval.py:231
+msgid "The exercise has to be better configured."
+msgstr "Debería configurar mejor el ejercicio"
+
+#: src/multipleintervalconfigwidget.py:71
+msgid "Number of intervals:"
+msgstr "Cantidad de intervalos:"
+
+#: src/multipleintervalconfigwidget.py:78
+msgid "Configure all intervals in this exercise like this"
+msgstr "Configurar todos los intervalos de este ejercicio así"
+
+#: src/multipleintervalconfigwidget.py:86
+msgid "Togglebuttons are for interval number:"
+msgstr "Cambiar botones es para el intervalo número"
+
+#: src/multipleintervalconfigwidget.py:96
+msgid "Up:"
+msgstr "Alto"
+
+#: src/multipleintervalconfigwidget.py:112
+msgid "Down:"
+msgstr "Bajo"
+
+#: src/multipleintervalconfigwidget.py:128
+msgid "Reset to default values"
+msgstr "Reinicializar a los valores por defecto"
+
+#: src/nameinterval.py:142
+msgid "Could not satisfy the constraints in the lesson header."
+msgstr ""
+
+#: src/nameinterval.py:151 src/nameinterval.py:163
+#, python-format
+msgid "Already solved. The interval is a '%s'"
+msgstr ""
+
+#: src/nameinterval.py:180
+#, fuzzy, python-format
+msgid "Correct, the interval is a %s"
+msgstr "correcto, es %i"
+
+#: src/nameinterval.py:189
+#, fuzzy
+msgid "Name the interval"
+msgstr "Cantar el intervalo"
+
+#: src/osutils.py:9
+#, python-format
+msgid "The executable '%s' does not exist. Please check your setup."
+msgstr ""
+
+#: src/reportbug.py:36
+msgid "Bug report"
+msgstr "Informe de error"
+
+#: src/reportbug.py:38 src/reportbug.py:57
+msgid "_Send"
+msgstr "Enviar"
+
+#: src/reportbug.py:53
+msgid "Make bug report"
+msgstr "Hacer informe de error"
+
+#: src/reportbug.py:56
+msgid "See complete _report"
+msgstr ""
+
+#: src/reportbug.py:62
+msgid "_Email:"
+msgstr ""
+
+#: src/reportbug.py:66
+msgid "Mangled email address:"
+msgstr ""
+
+#: src/reportbug.py:72
+msgid "S_hort description:"
+msgstr "Descripción corta:"
+
+#: src/reportbug.py:74
+msgid "_Describe how to produce the error message:"
+msgstr ""
+
+#. translators, please notice that the word NO_DESCRIPTION must not be
+#. translated in this string.
+#: src/reportbug.py:83
+msgid ""
+"Describe as exactly as you can what you did when this error occurred. If you "
+"give no description at all, you make it very difficult to track down this "
+"bug. You should replace this text with your description, and also remove the "
+"\"bug-tag\" in the bottom of this text so that this bug is not automatically "
+"sorted among the bug reports with no description.\n"
+"\n"
+"(bug-tag: NO_DESCRIPTION)"
+msgstr ""
+
+#: src/rhythm.py:184
+msgid "Play"
+msgstr "Jouer"
+
+#: src/rhythm.py:224
+msgid "Don't start the question with a rest"
+msgstr "Ne pas commencer la question par un silence"
+
+#: src/rhythm.py:227
+msgid "Beats per minute:"
+msgstr "Battements par minute (bpm):"
+
+#: src/rhythm.py:300 src/rhythmtapping.py:178
+msgid "You have to configure this exercise properly"
+msgstr "Debe configurar este ejercicio correctamente"
+
+#: src/rhythm.py:334
+msgid "Identify the rhythm"
+msgstr "Identificar el ritmo"
+
+#: src/rhythmtapping.py:124
+#, fuzzy
+msgid "Please tap the rhythm."
+msgstr "Identificar el ritmo"
+
+#: src/rhythmtapping.py:191
+msgid "Tapping in progress..."
+msgstr ""
+
+#: src/singanswer.py:61 src/singchord.py:49 src/singinterval.py:103
+msgid "_Play answer"
+msgstr "Tocar la respuesta"
+
+#: src/singchord.py:48
+msgid "440h_z"
+msgstr "440hz"
+
+#: src/singinterval.py:92
+msgid ""
+"_New interval,\n"
+"last was correct"
+msgstr ""
+"Intervalo nuevo,\n"
+"el anterior fue correcto"
+
+#: src/singinterval.py:94
+msgid ""
+"New interval,\n"
+"last was _wrong"
+msgstr ""
+"Intervalo nuevo\n"
+"el anterior fue incorrecto"
+
+#: src/singinterval.py:99
+msgid "_Repeat first tone"
+msgstr "Repetir la primera nota"
+
+#: src/singinterval.py:107
+msgid "Play _last tone"
+msgstr "Tocar la última nota"
+
+#: src/singinterval.py:122 src/singinterval.py:169
+msgid "Sing interval"
+msgstr "Cantar el intervalo"
+
+#: src/singinterval.py:140
+msgid ""
+"The exercise has to be better configured.\n"
+"Click 'Reset to default values' on the config\n"
+"page if you don't know how to do this."
+msgstr ""
+"Este ejercicio se debe configurar mejor.\n"
+"Clic en 'Restablecer a valores por defecto' en la\n"
+"ventana de configuración si no sabe como hacer esto."
+
+#: src/singinterval.py:163
+msgid "Sing the interval"
+msgstr "Cantar el intervalo"
+
+#: src/specialwidgets.py:171
+msgid "Set transposition"
+msgstr "Establecer transposición"
+
+#: src/specialwidgets.py:177
+msgid "Select how to do random transposition"
+msgstr "Seleccione como hacer una transposición aleatoria"
+
+#: src/specialwidgets.py:179
+msgid ""
+"You can read about the different types of transposition in the lesson file "
+"documentation available on the Help menu."
+msgstr ""
+"Puede leer acerca de los diferentes tipos de transposición en la "
+"documentación de la lección disponible en el menú de Ayuda"
+
+#: src/statisticsviewer.py:65 src/statisticsviewer.py:179
+msgid "Session"
+msgstr "Sesión"
+
+#: src/statisticsviewer.py:65 src/statisticsviewer.py:185
+msgid "Today"
+msgstr "Hoy"
+
+#: src/statisticsviewer.py:66 src/statisticsviewer.py:191
+msgid "Last 7 days"
+msgstr "Ultima semana"
+
+#: src/statisticsviewer.py:66 src/statisticsviewer.py:197
+msgid "Total"
+msgstr "Total"
+
+#: src/statisticsviewer.py:75
+msgid "Percent"
+msgstr "Porcentaje"
+
+#: src/statisticsviewer.py:76 src/trainingsetdlg.py:87
+msgid "Count"
+msgstr "Cuenta"
+
+#: src/tracebackwindow.py:28
+msgid "GNU Solfege message window"
+msgstr "Ventana de mensajes de GNU Solfege"
+
+#: src/tracebackwindow.py:31
+msgid ""
+"Please report this to the bug database or send an email to bug-solfege@gnu."
+"org if the content of the message make you believe you have found a bug."
+msgstr ""
+
+#: src/tracebackwindow.py:46
+msgid "_Make automatic bug report"
+msgstr ""
+
+#: src/trainingsetdlg.py:59
+msgid "MIDI"
+msgstr ""
+
+#: src/trainingsetdlg.py:60
+msgid "WAV"
+msgstr ""
+
+#: src/trainingsetdlg.py:61
+msgid "MP3"
+msgstr ""
+
+#: src/trainingsetdlg.py:62
+msgid "OGG"
+msgstr ""
+
+#: src/trainingsetdlg.py:66
+#, fuzzy
+msgid "Preferred output format:"
+msgstr "Instrumento preferido"
+
+#: src/trainingsetdlg.py:93
+#, fuzzy
+msgid "Repeat"
+msgstr "Repetir"
+
+#: src/trainingsetdlg.py:99
+#, fuzzy
+msgid "Delay"
+msgstr "Jouer"
+
+#: src/trainingsetdlg.py:155
+msgid ""
+"This lesson file cannot be exported because some of the music in the file "
+"are not parsable by the mpd module."
+msgstr ""
+
+#: src/trainingsetdlg.py:247
+#, python-format
+msgid "Untitled%s"
+msgstr ""
+
+#: src/trainingsetdlg.py:259
+msgid "Export"
+msgstr ""
+
+#: src/trainingsetdlg.py:297
+#, python-format
+msgid "Save changes to \"%s\" before closing?"
+msgstr ""
+
+#: src/trainingsetdlg.py:300
+#, python-format
+msgid ""
+"If you don't save, changes from the past %i seconds will be permanently lost."
+msgstr ""
+
+#: src/trainingsetdlg.py:302
+#, python-format
+msgid ""
+"If you don't save, changes from the past %i minutes will be permanently lost."
+msgstr ""
+
+#: src/trainingsetdlg.py:304
+msgid "_Close without Saving"
+msgstr ""
+
+#: src/trainingsetdlg.py:367
+#, fuzzy
+msgid "Save File As"
+msgstr "Voz masculina"
+
+#: src/trainingsetdlg.py:395
+msgid "Error saving file"
+msgstr ""
+
+#: src/trainingsetdlg.py:447
+msgid "Select an empty directory, since we want to fill it with files."
+msgstr ""
+
+#: src/trainingsetdlg.py:448
+msgid "Select where to export the files"
+msgstr ""
+
+#: src/trainingsetdlg.py:469
+msgid "Exporting training set"
+msgstr ""
+
+#: src/trainingsetdlg.py:473
+msgid "Export training set"
+msgstr ""
+
+#: src/twelvetone.py:69
+msgid "_Play first note"
+msgstr "Tocar la primera nota"
+
+#: src/twelvetone.py:71
+msgid "Play _last note"
+msgstr "Tocar la última nota"
+
+#: src/twelvetone.py:73
+msgid "Play _all"
+msgstr "Tocar todo"
+
+#: src/utils.py:43
+msgid "up"
+msgstr "haut"
+
+#: src/utils.py:45
+msgid "down"
+msgstr "bas"
+
+#: mpd/interval.py:34
+#, fuzzy
+msgid "perfect unison"
+msgstr "5ª justa"
+
+#: mpd/interval.py:35
+#, fuzzy
+msgid "diminished unison"
+msgstr "disminuido"
+
+#: mpd/interval.py:36
+#, fuzzy
+msgid "augmented unison"
+msgstr "aumentado"
+
+#: mpd/interval.py:38
+#, fuzzy
+msgid "diminished second"
+msgstr "disminuido"
+
+#: mpd/interval.py:41
+#, fuzzy
+msgid "augmented second"
+msgstr "aumentado"
+
+#: mpd/interval.py:43
+#, fuzzy
+msgid "diminished third"
+msgstr "5ª disminuída"
+
+#: mpd/interval.py:46
+#, fuzzy
+msgid "augmented third"
+msgstr "4ÃƒÂƒÃ‚Â‚ÃƒÂ‚Ã‚Âª aumentada (trÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â­tono)"
+
+#: mpd/interval.py:48
+#, fuzzy
+msgid "diminished fourth"
+msgstr "5ª disminuída"
+
+#: mpd/interval.py:50
+msgid "augmented fourth"
+msgstr "4ÃƒÂƒÃ‚Â‚ÃƒÂ‚Ã‚Âª aumentada (trÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â­tono)"
+
+#: mpd/interval.py:54
+#, fuzzy
+msgid "augmented fifth"
+msgstr "4ÃƒÂƒÃ‚Â‚ÃƒÂ‚Ã‚Âª aumentada (trÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â­tono)"
+
+#: mpd/interval.py:56
+#, fuzzy
+msgid "diminished sixth"
+msgstr "5ª disminuída"
+
+#: mpd/interval.py:59
+#, fuzzy
+msgid "augmented sixth"
+msgstr "4ÃƒÂƒÃ‚Â‚ÃƒÂ‚Ã‚Âª aumentada (trÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â­tono)"
+
+#: mpd/interval.py:61
+#, fuzzy
+msgid "diminished seventh"
+msgstr "5ª disminuída"
+
+#: mpd/interval.py:64
+#, fuzzy
+msgid "augmented seventh"
+msgstr "4ÃƒÂƒÃ‚Â‚ÃƒÂ‚Ã‚Âª aumentada (trÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â­tono)"
+
+#: mpd/interval.py:66
+#, fuzzy
+msgid "diminished octave"
+msgstr "disminuido"
+
+#: mpd/interval.py:68
+#, fuzzy
+msgid "augmented octave"
+msgstr "4ÃƒÂƒÃ‚Â‚ÃƒÂ‚Ã‚Âª aumentada (trÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â­tono)"
+
+#. translators: Only translate the word after interval| , and don't include
+#. interval| in the translated string. So for Norwegians, translate
+#. "interval|diminished" to "forminsket". Do similar for all strings
+#. that are preceded with "interval|"
+#: mpd/interval.py:73
+#, fuzzy
+msgid "interval|diminished"
+msgstr "disminuido"
+
+#: mpd/interval.py:74
+#, fuzzy
+msgid "interval|pure"
+msgstr "u"
+
+#: mpd/interval.py:75
+#, fuzzy
+msgid "interval|augmented"
+msgstr "u"
+
+#: mpd/interval.py:76
+#, fuzzy
+msgid "interval|minor"
+msgstr "2ªm"
+
+#: mpd/interval.py:77
+#, fuzzy
+msgid "interval|major"
+msgstr "2ªm"
+
+#: mpd/interval.py:78
+msgid "interval|doubly-diminished"
+msgstr ""
+
+#: mpd/interval.py:79
+msgid "interval|doubly-augmented"
+msgstr ""
+
+#: mpd/interval.py:87
+#, fuzzy, python-format
+msgid "Invalid interval name: %s"
+msgstr "Intervalos melÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³dicos"
+
+#: mpd/musicalpitch.py:84
+msgid "notename|c"
+msgstr ""
+
+#: mpd/musicalpitch.py:85
+msgid "notename|cb"
+msgstr ""
+
+#: mpd/musicalpitch.py:86
+msgid "notename|cbb"
+msgstr ""
+
+#: mpd/musicalpitch.py:87
+msgid "notename|c#"
+msgstr ""
+
+#: mpd/musicalpitch.py:88
+msgid "notename|cx"
+msgstr ""
+
+#: mpd/musicalpitch.py:89
+msgid "notename|d"
+msgstr ""
+
+#: mpd/musicalpitch.py:90
+msgid "notename|db"
+msgstr ""
+
+#: mpd/musicalpitch.py:91
+msgid "notename|dbb"
+msgstr ""
+
+#: mpd/musicalpitch.py:92
+msgid "notename|d#"
+msgstr ""
+
+#: mpd/musicalpitch.py:93
+msgid "notename|dx"
+msgstr ""
+
+#: mpd/musicalpitch.py:94
+msgid "notename|e"
+msgstr ""
+
+#: mpd/musicalpitch.py:95
+msgid "notename|eb"
+msgstr ""
+
+#: mpd/musicalpitch.py:96
+msgid "notename|ebb"
+msgstr ""
+
+#: mpd/musicalpitch.py:97
+msgid "notename|e#"
+msgstr ""
+
+#: mpd/musicalpitch.py:98
+msgid "notename|ex"
+msgstr ""
+
+#: mpd/musicalpitch.py:99
+msgid "notename|f"
+msgstr ""
+
+#: mpd/musicalpitch.py:100
+msgid "notename|fb"
+msgstr ""
+
+#: mpd/musicalpitch.py:101
+msgid "notename|fbb"
+msgstr ""
+
+#: mpd/musicalpitch.py:102
+msgid "notename|f#"
+msgstr ""
+
+#: mpd/musicalpitch.py:103
+msgid "notename|fx"
+msgstr ""
+
+#: mpd/musicalpitch.py:104
+msgid "notename|g"
+msgstr ""
+
+#: mpd/musicalpitch.py:105
+msgid "notename|gb"
+msgstr ""
+
+#: mpd/musicalpitch.py:106
+msgid "notename|gbb"
+msgstr ""
+
+#: mpd/musicalpitch.py:107
+msgid "notename|g#"
+msgstr ""
+
+#: mpd/musicalpitch.py:108
+msgid "notename|gx"
+msgstr ""
+
+#: mpd/musicalpitch.py:109
+msgid "notename|a"
+msgstr ""
+
+#: mpd/musicalpitch.py:110
+msgid "notename|ab"
+msgstr ""
+
+#: mpd/musicalpitch.py:111
+msgid "notename|abb"
+msgstr ""
+
+#: mpd/musicalpitch.py:112
+msgid "notename|a#"
+msgstr ""
+
+#: mpd/musicalpitch.py:113
+msgid "notename|ax"
+msgstr ""
+
+#: mpd/musicalpitch.py:114
+msgid "notename|b"
+msgstr ""
+
+#: mpd/musicalpitch.py:115
+msgid "notename|bb"
+msgstr ""
+
+#: mpd/musicalpitch.py:116
+msgid "notename|bbb"
+msgstr ""
+
+#: mpd/musicalpitch.py:117
+msgid "notename|b#"
+msgstr ""
+
+#: mpd/musicalpitch.py:118
+msgid "notename|bx"
+msgstr ""
+
+#: mpd/musicalpitch.py:125
+#, python-format
+msgid "Invalid notename: %s"
+msgstr ""
+
+#: mpd/musicalpitch.py:345
+#, python-format
+msgid "notenameformat|%(notename)s"
+msgstr ""
+
+#: mpd/musicalpitch.py:347
+#, python-format
+msgid "notenameformat|%(notename)s%(oct)s"
+msgstr ""
+
+#: lesson-files/altered-1:13
+msgid "Altered chords"
+msgstr "Acordes alterados"
+
+#: lesson-files/altered-2:8
+msgid "Altered chords & inversions"
+msgstr "Acordes alterados e inversiones"
+
+#: lesson-files/barnesanger:10
+msgid "Norwegian children songs"
+msgstr "Canciones infantiles noruegas"
+
+#: lesson-files/besifring:10
+msgid "simple tonal chords"
+msgstr "Acordes tonales simples"
+
+#: lesson-files/bpm:6
+#, fuzzy
+msgid "Beats per minute"
+msgstr "Battements par minute (bpm):"
+
+#: lesson-files/chord-7b9-maj79:12
+msgid "7b9 and maj79 chords"
+msgstr ""
+
+#: lesson-files/chord-dim-aug:12
+msgid "Diminished and augmented chords"
+msgstr ""
+
+#: lesson-files/chord-dim-aug:17
+msgid "diminished"
+msgstr "disminuido"
+
+#: lesson-files/chord-dim-aug:18
+msgid "augmented"
+msgstr "aumentado"
+
+#: lesson-files/chord-dim-aug-min-major:9
+msgid "Minor, major, diminished and augmented chords"
+msgstr ""
+
+#: lesson-files/chord-m7-7:12 lesson-files/chord-m7-7-inv-not:9
+msgid "Minor 7 and dominant 7 chords"
+msgstr ""
+
+#: lesson-files/chord-m7-7-inv:9
+#, fuzzy
+msgid "Minor 7 and dominant 7 chords with inversions"
+msgstr "Mayor y menor con inversiones"
+
+#: lesson-files/chord-m7-7-maj7-m7b5-dim7:12
+msgid "Chords with 7 in their name"
+msgstr ""
+
+#: lesson-files/chord-m9-9:12
+msgid "Minor 9 and 9 chords"
+msgstr ""
+
+#: lesson-files/chord-m9-9-7b9-maj79:12
+msgid "Chords with 9 in their name"
+msgstr ""
+
+#: lesson-files/chord-maj7-m7b5-dim7:12
+msgid "Major seventh, diminished seventh and half diminished seventh chords"
+msgstr ""
+
+#: lesson-files/chord-min-major:12 lesson-files/chord-min-major-inv:9
+msgid "Minor and major chords"
+msgstr ""
+
+#: lesson-files/chord-min-major-7:12
+msgid "Major, minor, dominant seventh with inversions"
+msgstr "Mayor, menor, séptima dominante con inversiones"
+
+#: lesson-files/chord-min-major-7:18 lesson-files/chord-min-major-7:19
+#: lesson-files/chord-min-major-7:20
+#: lesson-files/chord-min-major-close-open:50
+#: lesson-files/chord-min-major-close-open:57
+#: lesson-files/chord-min-major-close-open:64
+#: lesson-files/chord-min-major-close-open:71
+#: lesson-files/chord-min-major-close-open:78
+#: lesson-files/chord-min-major-inv:14 lesson-files/chord-min-major-inv:15
+#: lesson-files/chord-min-major-inv:16 lesson-files/chord-min-major-inv-not:14
+#: lesson-files/chord-min-major-inv-not:15
+#: lesson-files/chord-min-major-inv-not:16 lesson-files/durmoll:22
+#: lesson-files/durmoll:32
+msgid "major"
+msgstr "mayor"
+
+#: lesson-files/chord-min-major-7:21 lesson-files/chord-min-major-7:22
+#: lesson-files/chord-min-major-7:23
+#: lesson-files/chord-min-major-close-open:12
+#: lesson-files/chord-min-major-close-open:19
+#: lesson-files/chord-min-major-close-open:26
+#: lesson-files/chord-min-major-close-open:33
+#: lesson-files/chord-min-major-close-open:40
+#: lesson-files/chord-min-major-inv:17 lesson-files/chord-min-major-inv:18
+#: lesson-files/chord-min-major-inv:19 lesson-files/chord-min-major-inv-not:17
+#: lesson-files/chord-min-major-inv-not:18
+#: lesson-files/chord-min-major-inv-not:19 lesson-files/durmoll:17
+#: lesson-files/durmoll:27
+msgid "minor"
+msgstr "menor"
+
+#: lesson-files/chord-min-major-7:24 lesson-files/chord-min-major-7:25
+#: lesson-files/chord-min-major-7:26 lesson-files/chord-min-major-7:27
+msgid "dominant seventh"
+msgstr "séptima dominante"
+
+#: lesson-files/chord-min-major-close-open:9
+#, fuzzy
+msgid "Minor/major in close and open position"
+msgstr "menor/mayor en posición abierta y cerrada"
+
+#: lesson-files/chord-voicing-test:8
+msgid "Altered chords (chord voicing)"
+msgstr "Acordes alterados e inversiones"
+
+#: lesson-files/compare-intervals:6
+#, fuzzy
+msgid "Compare intervals"
+msgstr "C_omparar intervalos"
+
+#: lesson-files/compare-intervals-harmonic:6 lesson-files/harmonic-intervals:7
+#: lesson-files/melodic-intervals:7 lesson-files/melodic-intervals-down:7
+#: lesson-files/melodic-intervals-up:7 lesson-files/sing-intervals:9
+msgid "Second to decim"
+msgstr "Segunda a décima"
+
+#: lesson-files/compare-intervals-harmonic-10:6
+#: lesson-files/harmonic-intervals-10:8 lesson-files/melodic-intervals-10:7
+#: lesson-files/melodic-intervals-down-10:7
+#: lesson-files/melodic-intervals-up-10:7 lesson-files/sing-intervals-10:8
+msgid "Decims"
+msgstr "Décimas"
+
+#: lesson-files/compare-intervals-harmonic-2:6
+#: lesson-files/harmonic-intervals-2:8 lesson-files/melodic-intervals-2:9
+#: lesson-files/melodic-intervals-down-2:9
+#: lesson-files/melodic-intervals-up-2:9 lesson-files/nameinterval-seconds:8
+#: lesson-files/sing-intervals-2:9
+msgid "Seconds"
+msgstr "Segundas"
+
+#: lesson-files/compare-intervals-harmonic-2-3:6
+#: lesson-files/harmonic-intervals-2-3:8 lesson-files/melodic-intervals-2-3:9
+#: lesson-files/melodic-intervals-down-2-3:9
+#: lesson-files/melodic-intervals-up-2-3:9 lesson-files/sing-intervals-2-3:9
+msgid "Seconds and thirds"
+msgstr "Segundas y terceras"
+
+#: lesson-files/compare-intervals-harmonic-3:6
+#: lesson-files/harmonic-intervals-3:8 lesson-files/melodic-intervals-3:8
+#: lesson-files/melodic-intervals-down-3:7
+#: lesson-files/melodic-intervals-up-3:7 lesson-files/nameinterval-thirds:8
+#: lesson-files/sing-intervals-3:8
+msgid "Thirds"
+msgstr "Terceras"
+
+#: lesson-files/compare-intervals-harmonic-4-5:6
+#: lesson-files/harmonic-intervals-4-5:8 lesson-files/melodic-intervals-4-5:8
+#: lesson-files/melodic-intervals-down-4-5:8
+#: lesson-files/melodic-intervals-up-4-5:8 lesson-files/sing-intervals-4-5:8
+msgid "Fourths and fifths"
+msgstr "Cuartas y quintas"
+
+#: lesson-files/compare-intervals-harmonic-4-5-8:6
+#: lesson-files/harmonic-intervals-4-5-8:9
+#: lesson-files/melodic-intervals-4-5-8:8
+#: lesson-files/melodic-intervals-down-4-5-8:8
+#: lesson-files/melodic-intervals-up-4-5-8:8
+#: lesson-files/sing-intervals-4-5-8:8
+msgid "Fourths, fifths and octave"
+msgstr "Cuartas, quintas y octavas"
+
+#: lesson-files/compare-intervals-harmonic-6:6
+#: lesson-files/harmonic-intervals-6:8 lesson-files/melodic-intervals-6:7
+#: lesson-files/melodic-intervals-down-6:7
+#: lesson-files/melodic-intervals-up-6:7 lesson-files/nameinterval-sixths:8
+#: lesson-files/sing-intervals-6:8
+msgid "Sixths"
+msgstr "Sextas"
+
+#: lesson-files/compare-intervals-harmonic-6-7:6
+#: lesson-files/harmonic-intervals-6-7:8 lesson-files/melodic-intervals-6-7:9
+#: lesson-files/melodic-intervals-down-6-7:9
+#: lesson-files/melodic-intervals-up-6-7:9 lesson-files/sing-intervals-6-7:9
+msgid "Sixths and sevenths"
+msgstr "Sextas y séptimas"
+
+#: lesson-files/compare-intervals-harmonic-7:6
+#: lesson-files/harmonic-intervals-7:8 lesson-files/melodic-intervals-7:7
+#: lesson-files/melodic-intervals-down-7:7
+#: lesson-files/melodic-intervals-up-7:7 lesson-files/nameinterval-sevenths:8
+#: lesson-files/sing-intervals-7:8
+msgid "Sevenths"
+msgstr "Séptimas"
+
+#: lesson-files/compare-intervals-harmonic-7-9:6
+#: lesson-files/harmonic-intervals-7-9:9 lesson-files/melodic-intervals-7-9:9
+#: lesson-files/melodic-intervals-down-7-9:9
+#: lesson-files/melodic-intervals-up-7-9:9 lesson-files/sing-intervals-7-9:8
+msgid "Sevenths and ninths"
+msgstr "Séptimas y novenas"
+
+#: lesson-files/compare-intervals-harmonic-9:6
+#: lesson-files/harmonic-intervals-9:8 lesson-files/melodic-intervals-9:7
+#: lesson-files/melodic-intervals-down-9:7
+#: lesson-files/melodic-intervals-up-9:7 lesson-files/sing-intervals-9:8
+msgid "Ninths"
+msgstr "Novenas"
+
+#: lesson-files/compare-intervals-harmonic-tritonus-7:6
+#: lesson-files/harmonic-intervals-tritonus-7:8
+#: lesson-files/melodic-intervals-down-tritonus-7:7
+#: lesson-files/melodic-intervals-tritonus-7:7
+#: lesson-files/melodic-intervals-up-tritonus-7:7
+#: lesson-files/sing-intervals-tritonus-7:8
+msgid "Tritonus and sevenths"
+msgstr "tritonos y séptimas"
+
+#: lesson-files/csound-fifth-0.97:9 lesson-files/csound-fifth-0.98:9
+#: lesson-files/csound-fifth-0.99:9 lesson-files/csound-fifth-0.995:9
+#: lesson-files/csound-fifth-0.996:9 lesson-files/csound-fifth-0.997:9
+#: lesson-files/csound-fifth-0.998:9
+#, python-format
+msgid "Is the fifth pure, too small or to large? %s"
+msgstr ""
+
+#: lesson-files/diatonic-1:8
+msgid "Diatonic chords"
+msgstr "Acordes diatónicos"
+
+#: lesson-files/diatonic-2:8
+msgid "Diatonic chords & inversions"
+msgstr "Acordes diatónicos e inversiones"
+
+#: lesson-files/durmoll:8
+msgid "Is the song played major or minor"
+msgstr "La canción que se tocó es mayor o menor"
+
+#: lesson-files/harmonic-intervals-2-to-8:8
+#: lesson-files/melodic-intervals-2-to-8:7
+#: lesson-files/melodic-intervals-down-2-to-8:7
+#: lesson-files/melodic-intervals-up-2-to-8:7
+#, fuzzy
+msgid "Second to octave"
+msgstr "Segunda a décima"
+
+#: lesson-files/harmonic-intervals-self-config:6
+msgid "Harmonic intervals"
+msgstr "Intervalos armónicos"
+
+#: lesson-files/id-tone:6
+#, fuzzy
+msgid "Id tone"
+msgstr "idnota"
+
+#: lesson-files/id-tone-cde-10:8
+msgid "C to B, C#, D# and F#"
+msgstr ""
+
+#: lesson-files/id-tone-cde-11:8
+msgid "C to B, C#, D#, F# and G#"
+msgstr ""
+
+#: lesson-files/id-tone-cde-12:8
+msgid "All"
+msgstr ""
+
+#: lesson-files/id-tone-cde-3:7
+msgid "C to E"
+msgstr ""
+
+#: lesson-files/id-tone-cde-4:7
+msgid "C to F"
+msgstr ""
+
+#: lesson-files/id-tone-cde-5:7
+msgid "C to G"
+msgstr ""
+
+#: lesson-files/id-tone-cde-6:7
+msgid "C to A"
+msgstr ""
+
+#: lesson-files/id-tone-cde-7:7
+msgid "C to B"
+msgstr ""
+
+#: lesson-files/id-tone-cde-8:8
+msgid "C to B and C#"
+msgstr ""
+
+#: lesson-files/id-tone-cde-9:8
+msgid "C to B, C# and D#"
+msgstr ""
+
+#: lesson-files/jsb-inventions:8
+msgid "Parts of 2 Bach inventions"
+msgstr ""
+
+#: lesson-files/melodic-intervals-self-config:6
+msgid "Melodic intervals"
+msgstr "Intervalos melódicos"
+
+#: lesson-files/nameinterval-1:8
+#, fuzzy
+msgid "Many intervals"
+msgstr "Cantar los intervalos"
+
+#: lesson-files/nameinterval-2:8
+#, fuzzy
+msgid "All intervals"
+msgstr "Cantar los intervalos"
+
+#: lesson-files/nameinterval-fifths:8
+#, fuzzy
+msgid "Fifths"
+msgstr "Sextas"
+
+#: lesson-files/nameinterval-fourths:8
+#, fuzzy
+msgid "Fourths"
+msgstr "4ª"
+
+#: lesson-files/nameinterval-octave:8
+#, fuzzy
+msgid "Octaves"
+msgstr "Octava:"
+
+#: lesson-files/nameinterval-unison:8
+#, fuzzy
+msgid "Unisons"
+msgstr "unísono"
+
+#: lesson-files/progression-1:10
+#, fuzzy
+msgid "Easy harmonic progressions"
+msgstr "Progression harmonique"
+
+#: lesson-files/progression-1:11 lesson-files/progression-2:12
+#: lesson-files/progression-atte:32 lesson-files/three-prog-root:10
+#, fuzzy
+msgid "Enter the harmonic progression"
+msgstr "Progression harmonique"
+
+#: lesson-files/progression-2:11
+msgid "Easy harmonic progressions, including inverted chords"
+msgstr ""
+
+#: lesson-files/progression-atte:31
+#, fuzzy
+msgid "A few jazz progressions"
+msgstr "Progression harmonique"
+
+#: lesson-files/rhythm-all:8 lesson-files/tapping-all:8
+msgid "Rhythms (difficult)"
+msgstr ""
+
+#: lesson-files/rhythm-easy:8 lesson-files/tapping-easy:8
+#, fuzzy
+msgid "Rhythms (easy)"
+msgstr "Ritmo"
+
+#: lesson-files/rhythm-mid:8 lesson-files/tapping-mid:8
+#, fuzzy
+msgid "Rhythms"
+msgstr "Ritmo"
+
+#: lesson-files/rhythm-self-config-binary:8
+msgid "Rhythms, binary time"
+msgstr ""
+
+#: lesson-files/rhythm-self-config-ternary:9
+#, fuzzy
+msgid "Rhythms, ternary time"
+msgstr "Ritmo"
+
+#: lesson-files/rhythm-ternary:8
+#, fuzzy
+msgid "Rhythms in 3/8"
+msgstr "Ritmo"
+
+#: lesson-files/sc-6tones:10
+msgid "Scales with 6 notes"
+msgstr ""
+
+#: lesson-files/sc-8tones:10
+msgid "Scales with 8 notes"
+msgstr ""
+
+#: lesson-files/scales:18 lesson-files/scales-thirds:18
+#: lesson-files/include/sc-master:18
+msgid "Ionian"
+msgstr "Jónico"
+
+#: lesson-files/scales:22 lesson-files/scales-thirds:23
+#: lesson-files/include/sc-master:57
+msgid "Dorian"
+msgstr "Dórico"
+
+#: lesson-files/scales:26 lesson-files/scales-thirds:28
+#: lesson-files/include/sc-master:94
+msgid "Phrygian"
+msgstr "Frigio"
+
+#: lesson-files/scales:30 lesson-files/scales-thirds:33
+#: lesson-files/include/sc-master:133
+msgid "Lydian"
+msgstr "Lidio"
+
+#: lesson-files/scales:34 lesson-files/scales-thirds:38
+#: lesson-files/include/sc-master:170
+msgid "Mixolydian"
+msgstr "Mixolidio"
+
+#: lesson-files/scales:38 lesson-files/scales-thirds:43
+#: lesson-files/include/sc-master:207
+msgid "Aeolian"
+msgstr "Eólico"
+
+#: lesson-files/scales:42 lesson-files/scales-thirds:48
+#: lesson-files/include/sc-master:247
+msgid "Locrian"
+msgstr "Locrio"
+
+#: lesson-files/scales:46 lesson-files/scales-thirds:53
+msgid "Harmonic minor"
+msgstr "Menor armónica"
+
+#: lesson-files/scales:50 lesson-files/scales-thirds:58
+msgid "Melodic minor"
+msgstr "Menor melódica"
+
+#: lesson-files/scales-bebop:18
+msgid "scale|Mixolydian bebop"
+msgstr "escala|Mixolidio bebop"
+
+#: lesson-files/scales-bebop:22
+msgid "scale|Dorian bebop"
+msgstr "escala|Dórica bebop"
+
+#: lesson-files/scales-bebop:26
+msgid "scale|Major bebop"
+msgstr "escala|Mayor bebop"
+
+#: lesson-files/sc-beb:10 lesson-files/sc-beb-name:10 learningtree.txt:282
+#, fuzzy
+msgid "Bebop Scales"
+msgstr "Esc_alas"
+
+#: lesson-files/sc-beb-a:10
+msgid "Bebop Scales - Ascending"
+msgstr ""
+
+#: lesson-files/sc-beb-d:10
+msgid "Bebop Scales - Descending"
+msgstr ""
+
+#: lesson-files/sc-beb-elem:10
+msgid "Bebop Scales - enter structure"
+msgstr ""
+
+#: lesson-files/sc-beb-elem:11 lesson-files/sc-dha-elem:11
+#: lesson-files/sc-ham-elem:11 lesson-files/sc-har-elem:11
+#: lesson-files/sc-hun-elem:11 lesson-files/sc-maj-elem:11
+#: lesson-files/sc-mel-elem:11 lesson-files/sc-nea-elem:11
+#: lesson-files/sc-nem-elem:11 lesson-files/sc-pen-elem:11
+#: lesson-files/sc-sim-elem:11
+msgid "Enter the structure of the mode in number of half-tones"
+msgstr ""
+
+#: lesson-files/sc-beb-s:10
+msgid "Bebop Scales - recognize structure"
+msgstr ""
+
+#: lesson-files/sc-church:10
+msgid "Church Tones"
+msgstr ""
+
+#: lesson-files/sc-dha:10 lesson-files/sc-dha-name:10 learningtree.txt:219
+msgid "Double Harmonic Scale and its modes"
+msgstr ""
+
+#: lesson-files/sc-dha-a:10
+msgid "Double Harmonic Scale and its modes - Ascending"
+msgstr ""
+
+#: lesson-files/sc-dha-d:10
+msgid "Double Harmonic Scale and its modes - Descending"
+msgstr ""
+
+#: lesson-files/sc-dha-elem:10
+msgid "Double Harmonic scale and its modes - enter structure"
+msgstr ""
+
+#: lesson-files/sc-dha-f:10
+msgid "Double Harmonic Scale and its modes - arpeged by fourths"
+msgstr ""
+
+#: lesson-files/sc-dha-g:10
+msgid "Double Harmonic Scale and its modes - recognize grade"
+msgstr ""
+
+#: lesson-files/sc-dha-p:10
+msgid "Double Harmonic Scale and its modes - patterns"
+msgstr ""
+
+#: lesson-files/sc-dha-s:10
+msgid "Double Harmonic Scale and its modes - recognize structure"
+msgstr ""
+
+#: lesson-files/sc-dha-t:10
+msgid "Double Harmonic Scale and its modes - arpeged by thirds"
+msgstr ""
+
+#: lesson-files/sc-dom:10
+msgid "More Scales used over a Dominant or Altered chord"
+msgstr ""
+
+#: lesson-files/sc-dom-jazz:10
+msgid "Jazz Modes used over a Dominant or Altered chord"
+msgstr ""
+
+#: lesson-files/sc-east:10
+msgid "Modes used in East European Music"
+msgstr ""
+
+#: lesson-files/sc-greek:10
+msgid "Ancient Greek Modes"
+msgstr ""
+
+#: lesson-files/sc-hal:10
+msgid "More Scales used over a Half-Diminished or Diminished chord"
+msgstr ""
+
+#: lesson-files/sc-hal-jazz:10
+msgid "Jazz Modes over a Half-Diminished or Diminished chord"
+msgstr ""
+
+#: lesson-files/sc-ham:10 lesson-files/sc-ham-name:10 learningtree.txt:206
+msgid "Harmonic Major Scale and its modes"
+msgstr ""
+
+#: lesson-files/sc-ham-a:10
+msgid "Harmonic Major Scale and its modes - Ascending"
+msgstr ""
+
+#: lesson-files/sc-ham-d:10
+msgid "Harmonic Major Scale and its modes - Descending"
+msgstr ""
+
+#: lesson-files/sc-ham-elem:10
+msgid "Harmonic Major scale and its modes - enter structure"
+msgstr ""
+
+#: lesson-files/sc-ham-f:10
+msgid "Harmonic Major Scale and its modes - arpeged by fourths"
+msgstr ""
+
+#: lesson-files/sc-ham-g:10
+msgid "Harmonic Major Scale and its modes - recognize grade"
+msgstr ""
+
+#: lesson-files/sc-ham-p:10
+msgid "Harmonic Major Scale and its modes - patterns"
+msgstr ""
+
+#: lesson-files/sc-ham-s:10
+msgid "Harmonic Major Scale and its modes - recognize structure"
+msgstr ""
+
+#: lesson-files/sc-ham-t:10
+msgid "Harmonic Major Scale and its modes - arpeged by thirds"
+msgstr ""
+
+#: lesson-files/sc-har:10 lesson-files/sc-har-name:10 learningtree.txt:193
+#, fuzzy
+msgid "Harmonic Minor Scale and its modes"
+msgstr "Intervalles harmoniques"
+
+#: lesson-files/sc-har-a:10
+msgid "Harmonic Minor Scale and its modes - Ascending"
+msgstr ""
+
+#: lesson-files/sc-har-d:10
+msgid "Harmonic Minor Scale and its modes - Descending"
+msgstr ""
+
+#: lesson-files/sc-har-elem:10
+msgid "Harmonic Minor scale and its modes - enter structure"
+msgstr ""
+
+#: lesson-files/sc-har-f:10
+msgid "Harmonic Minor Scale and its modes - arpeged by fourths"
+msgstr ""
+
+#: lesson-files/sc-har-g:10
+msgid "Harmonic Minor Scale and its modes - recognize grade"
+msgstr ""
+
+#: lesson-files/sc-har-p:10
+msgid "Harmonic Minor Scale and its modes - patterns"
+msgstr ""
+
+#: lesson-files/sc-har-s:10
+msgid "Harmonic Minor Scale and its modes - recognize structure"
+msgstr ""
+
+#: lesson-files/sc-har-t:10
+msgid "Harmonic Minor Scale and its modes - arpeged by thirds"
+msgstr ""
+
+#: lesson-files/sc-hum-g:10
+msgid "Hungarian Minor Scale and its modes - recognize grade"
+msgstr ""
+
+#: lesson-files/sc-hun:10 lesson-files/sc-hun-name:10 learningtree.txt:259
+msgid "Hungarian Scale and its modes"
+msgstr ""
+
+#: lesson-files/sc-hun-a:10
+msgid "Hungarian Scale and its modes - Ascending"
+msgstr ""
+
+#: lesson-files/sc-hun-d:10
+msgid "Hungarian Scale and its modes - Descending"
+msgstr ""
+
+#: lesson-files/sc-hun-elem:10
+msgid "Hungarian scale and its modes - enter structure"
+msgstr ""
+
+#: lesson-files/sc-hun-f:10
+msgid "Hungarian Scale and its modes - arpeged by fourths"
+msgstr ""
+
+#: lesson-files/sc-hun-g:10
+msgid "Hungarian Scale and its modes - recognize grade"
+msgstr ""
+
+#: lesson-files/sc-hun-p:10
+msgid "Hungarian Scale and its modes - patterns"
+msgstr ""
+
+#: lesson-files/sc-hun-s:10
+msgid "Hungarian Scale and its modes - recognize structure"
+msgstr ""
+
+#: lesson-files/sc-hun-t:10
+msgid "Hungarian Scale and its modes - arpeged by thirds"
+msgstr ""
+
+#: lesson-files/sc-maj:10 lesson-files/sc-maj-name:10 learningtree.txt:165
+msgid "Major Scale and its modes"
+msgstr ""
+
+#: lesson-files/sc-maj-a:10
+msgid "Major Scale and its modes - Ascending"
+msgstr ""
+
+#: lesson-files/sc-maj-d:10
+msgid "Major Scale and its modes - Descending"
+msgstr ""
+
+#: lesson-files/sc-maj-elem:10
+msgid "Major scale and its modes - enter structure"
+msgstr ""
+
+#: lesson-files/sc-maj-f:10
+msgid "Major Scale and its modes - arpeged by fourths"
+msgstr ""
+
+#: lesson-files/sc-maj-g:10
+msgid "Major Scale and its modes - recognize grade"
+msgstr ""
+
+#: lesson-files/sc-maj-p:10
+msgid "Major Scale and its modes - patterns"
+msgstr ""
+
+#: lesson-files/sc-maj-px:10
+msgid "Major Scale and its modes - recognize with only few notes"
+msgstr ""
+
+#: lesson-files/sc-maj-px:11
+msgid "Three notes are enough to recognize the mode"
+msgstr ""
+
+#: lesson-files/sc-maj-s:10
+msgid "Major Scale and its modes - recognize structure"
+msgstr ""
+
+#: lesson-files/sc-maj-t:10
+msgid "Major Scale and its modes - arpeged by thirds"
+msgstr ""
+
+#: lesson-files/sc-mau:10
+msgid "More Scales used over a Major or Augmented chord"
+msgstr ""
+
+#: lesson-files/sc-mau-jazz:10
+msgid "Jazz Modes over a Major or Augmented chord"
+msgstr ""
+
+#: lesson-files/sc-mel:10 lesson-files/sc-mel-name:10 learningtree.txt:180
+#, fuzzy
+msgid "Melodic Minor Scale and its modes"
+msgstr "Intervalos melÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³dicos"
+
+#: lesson-files/sc-mel-a:10
+msgid "Melodic Minor Scale and its modes - Ascending"
+msgstr ""
+
+#: lesson-files/sc-mel-d:10
+msgid "Melodic Minor Scale and its modes - Descending"
+msgstr ""
+
+#: lesson-files/sc-mel-elem:10
+msgid "Melodic Minor scale and its modes - enter structure"
+msgstr ""
+
+#: lesson-files/sc-mel-f:10
+msgid "Melodic Minor Scale and its modes - arpeged by fourths"
+msgstr ""
+
+#: lesson-files/sc-mel-g:10
+msgid "Melodic Minor Scale and its modes - recognize grade"
+msgstr ""
+
+#: lesson-files/sc-mel-p:10
+msgid "Melodic Minor Scale and its modes - patterns"
+msgstr ""
+
+#: lesson-files/sc-mel-s:10
+msgid "Melodic Minor Scale and its modes - recognize structure"
+msgstr ""
+
+#: lesson-files/sc-mel-t:10
+msgid "Melodic Minor Scale and its modes - arpeged by thirds"
+msgstr ""
+
+#: lesson-files/sc-min:10
+msgid "More Scales used over a Minor chord"
+msgstr ""
+
+#: lesson-files/sc-min-jazz:10
+msgid "Jazz Modes over a Minor chord"
+msgstr ""
+
+#: lesson-files/sc-nat-g:10
+msgid "Natural Minor Scale and its modes - recognize grade"
+msgstr ""
+
+#: lesson-files/sc-nea:10 lesson-files/sc-nea-name:10 learningtree.txt:233
+msgid "Neapolitan Scale and its modes"
+msgstr ""
+
+#: lesson-files/sc-nea-a:10
+msgid "Neapolitan Scale and its modes - Ascending"
+msgstr ""
+
+#: lesson-files/sc-nea-d:10
+msgid "Neapolitan Scale and its modes - Descending"
+msgstr ""
+
+#: lesson-files/sc-nea-elem:10
+msgid "Neapolitan scale and its modes - enter structure"
+msgstr ""
+
+#: lesson-files/sc-nea-f:10
+msgid "Neapolitan Scale and its modes - arpeged by fourths"
+msgstr ""
+
+#: lesson-files/sc-nea-g:10
+msgid "Neapolitan Scale and its modes - recognize grade"
+msgstr ""
+
+#: lesson-files/sc-nea-p:10
+msgid "Neapolitan Scale and its modes - patterns"
+msgstr ""
+
+#: lesson-files/sc-nea-s:10
+msgid "Neapolitan Scale and its modes - recognize structure"
+msgstr ""
+
+#: lesson-files/sc-nea-t:10
+msgid "Neapolitan Scale and its modes - arpeged by thirds"
+msgstr ""
+
+#: lesson-files/sc-nem:10 lesson-files/sc-nem-name:10
+msgid "Neapolitan Minor Scale and its modes"
+msgstr ""
+
+#: lesson-files/sc-nem-a:10
+msgid "Neapolitan Minor Scale and its modes - Ascending"
+msgstr ""
+
+#: lesson-files/sc-nem-d:10
+msgid "Neapolitan Minor Scale and its modes - Descending"
+msgstr ""
+
+#: lesson-files/sc-nem-elem:10
+msgid "Neapolitan Minor scale and its modes - enter structure"
+msgstr ""
+
+#: lesson-files/sc-nem-f:10
+msgid "Neapolitan Minor Scale and its modes - arpeged by fourths"
+msgstr ""
+
+#: lesson-files/sc-nem-g:10
+msgid "Neapolitan Minor Scale and its modes - recognize grade"
+msgstr ""
+
+#: lesson-files/sc-nem-p:10
+msgid "Neapolitan Minor Scale and its modes - patterns"
+msgstr ""
+
+#: lesson-files/sc-nem-s:10
+msgid "Neapolitan Minor Scale and its modes - recognize structure"
+msgstr ""
+
+#: lesson-files/sc-nem-t:10
+msgid "Neapolitan Minor Scale and its modes - arpeged by thirds"
+msgstr ""
+
+#: lesson-files/sc-pen:10 lesson-files/sc-pen-name:10 learningtree.txt:272
+msgid "Pentatonic Major Scale and its modes"
+msgstr ""
+
+#: lesson-files/sc-pen-a:10
+msgid "Pentatonic Major Scale and its modes - Ascending"
+msgstr ""
+
+#: lesson-files/sc-pen-d:10
+msgid "Pentatonic Major Scale and its modes - Descending"
+msgstr ""
+
+#: lesson-files/sc-pen-elem:10
+msgid "Pentatonic Major scale and its modes - enter structure"
+msgstr ""
+
+#: lesson-files/sc-pen-g:10
+msgid "Pentatonic Major Scale and its modes - recognize grade"
+msgstr ""
+
+#: lesson-files/sc-pen-s:10
+msgid "Pentatonic Major Scale and its modes - recognize structure"
+msgstr ""
+
+#: lesson-files/sc-plagal:10
+msgid "Plagal Modes"
+msgstr ""
+
+#: lesson-files/sc-sim:10 lesson-files/sc-sim-name:10
+#, fuzzy
+msgid "Symmetric scales"
+msgstr "Identificar la escala"
+
+#: lesson-files/sc-sim-a:10
+msgid "Symmetric scales - Ascending"
+msgstr ""
+
+#: lesson-files/sc-sim-d:10
+msgid "Symmetric scales - Descending"
+msgstr ""
+
+#: lesson-files/sc-sim-elem:10
+msgid "Symmetric Scales - enter structure"
+msgstr ""
+
+#: lesson-files/sc-sim-s:10
+msgid "Symmetric scales - recognize structure"
+msgstr ""
+
+#: lesson-files/singchord-1:8
+msgid "Major chords (singchord)"
+msgstr ""
+
+#: lesson-files/singchord-2:8
+#, fuzzy
+msgid "Major chords in different inversions"
+msgstr "Mayor y menor con inversiones"
+
+#: lesson-files/singchord-3:8
+#, fuzzy
+msgid "Major and minor chords in different inversions"
+msgstr "Mayor y menor con inversiones"
+
+#: lesson-files/singchord-4:8
+#, fuzzy
+msgid "Dominant 7th chords in root position"
+msgstr "Acordes en posicion raíz"
+
+#: lesson-files/singchord-5:8
+#, fuzzy
+msgid "Minor 7th chords in root position"
+msgstr "Acordes en posicion raíz"
+
+#: lesson-files/singchord-6:9
+#, fuzzy
+msgid "Major 7th chords in root position"
+msgstr "Acordes en posicion raíz"
+
+#: lesson-files/singchord-all:8
+msgid "All the questions from the singchord exercises"
+msgstr ""
+
+#: lesson-files/sing-intervals-self-config:8
+msgid "Sing intervals"
+msgstr "Cantar los intervalos"
+
+#: lesson-files/sing-the-fifth:9
+msgid "Sing the fifth of the chord"
+msgstr "Cantar la quinta del acorde"
+
+#: lesson-files/sing-the-root:9
+msgid "Sing the root of the chord"
+msgstr "Cantar la raíz del acorde"
+
+#: lesson-files/sing-the-seventh:9
+msgid "Sing the seventh of the chord"
+msgstr "Cantar la séptima del acorde"
+
+#: lesson-files/sing-the-third:9
+msgid "Sing the third of the chord"
+msgstr "Cantar la tercera del acorde"
+
+#: lesson-files/three-prog-root:9
+#, fuzzy
+msgid "Three chords, root position"
+msgstr "Acordes en posicion raíz"
+
+#: lesson-files/twelvetone:7
+#, fuzzy
+msgid "Sing twelve random tones"
+msgstr "Chanter douze notes"
+
+#: lesson-files/include/sc-master:19
+#, fuzzy
+msgid "Major"
+msgstr "mayor"
+
+#: lesson-files/include/sc-master:20
+#, fuzzy
+msgid "Diatonic"
+msgstr "tÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³nica"
+
+#: lesson-files/include/sc-master:21
+#, fuzzy
+msgid "Greek Lydian"
+msgstr "Lidio"
+
+#: lesson-files/include/sc-master:22
+#, fuzzy
+msgid "Hypolydian"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:58
+#, fuzzy
+msgid "Greek Phrygian"
+msgstr "Frigio"
+
+#: lesson-files/include/sc-master:59
+#, fuzzy
+msgid "Hypomixolydian"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:95
+msgid "Maqam Kurd"
+msgstr ""
+
+#: lesson-files/include/sc-master:96
+msgid "Major Inverse"
+msgstr ""
+
+#: lesson-files/include/sc-master:97
+#, fuzzy
+msgid "Greek Dorian"
+msgstr "Dórico"
+
+#: lesson-files/include/sc-master:98
+#, fuzzy
+msgid "Hypoaeolian"
+msgstr "Eólico"
+
+#: lesson-files/include/sc-master:134
+msgid "Greek Hypolydian"
+msgstr ""
+
+#: lesson-files/include/sc-master:135
+#, fuzzy
+msgid "Hypolocrian"
+msgstr "Locrio"
+
+#: lesson-files/include/sc-master:171
+msgid "Greek Hypophrygian"
+msgstr ""
+
+#: lesson-files/include/sc-master:172
+#, fuzzy
+msgid "Hypoionian"
+msgstr "Jónico"
+
+#: lesson-files/include/sc-master:208
+msgid "Natural Minor"
+msgstr ""
+
+#: lesson-files/include/sc-master:209
+msgid "Ancient Minor"
+msgstr ""
+
+#: lesson-files/include/sc-master:210
+msgid "Pure Minor"
+msgstr ""
+
+#: lesson-files/include/sc-master:211
+msgid "Greek Hypodorian"
+msgstr ""
+
+#: lesson-files/include/sc-master:212
+#, fuzzy
+msgid "Hypodorian"
+msgstr "Dórico"
+
+#: lesson-files/include/sc-master:248 lesson-files/include/sc-master:474
+#, fuzzy
+msgid "Half Diminished"
+msgstr "disminuido"
+
+#: lesson-files/include/sc-master:249
+#, fuzzy
+msgid "Greek Mixolydian"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:250
+#, fuzzy
+msgid "Hypophrygian"
+msgstr "Frigio"
+
+#: lesson-files/include/sc-master:289
+msgid "Jazz Minor"
+msgstr ""
+
+#: lesson-files/include/sc-master:290
+#, fuzzy
+msgid "Melodic Minor Ascending"
+msgstr "Menor melódica"
+
+#: lesson-files/include/sc-master:291
+#, fuzzy
+msgid "Modern Minor"
+msgstr "Menor melódica"
+
+#: lesson-files/include/sc-master:292
+msgid "Minor-Major"
+msgstr ""
+
+#: lesson-files/include/sc-master:293
+#, fuzzy
+msgid "Ipoionian"
+msgstr "Jónico"
+
+#: lesson-files/include/sc-master:294
+#, fuzzy
+msgid "Ionian b3"
+msgstr "Jónico"
+
+#: lesson-files/include/sc-master:295
+#, fuzzy
+msgid "Dorian maj7"
+msgstr "Dórico"
+
+#: lesson-files/include/sc-master:328
+#, fuzzy
+msgid "Dorian b9"
+msgstr "Dórico"
+
+#: lesson-files/include/sc-master:329
+msgid "Javanese"
+msgstr ""
+
+#: lesson-files/include/sc-master:330
+#, fuzzy
+msgid "Phrygian #6"
+msgstr "Frigio"
+
+#: lesson-files/include/sc-master:363
+#, fuzzy
+msgid "Lydian Augmented"
+msgstr "aumentado"
+
+#: lesson-files/include/sc-master:364
+#, fuzzy
+msgid "Lydian #5"
+msgstr "Lidio"
+
+#: lesson-files/include/sc-master:397
+msgid "Lydian Dominant"
+msgstr ""
+
+#: lesson-files/include/sc-master:398
+#, fuzzy
+msgid "Lydian b7"
+msgstr "Lidio"
+
+#: lesson-files/include/sc-master:399
+#, fuzzy
+msgid "Mixolydian #4"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:400
+#, fuzzy
+msgid "Mixolydian #11"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:401
+msgid "Overtone"
+msgstr ""
+
+#: lesson-files/include/sc-master:434
+#, fuzzy
+msgid "Mixolydian b13"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:435
+#, fuzzy
+msgid "MIxolydian b6"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:436
+#, fuzzy
+msgid "Hindu"
+msgstr "Esconder"
+
+#: lesson-files/include/sc-master:437
+msgid "Hindustan"
+msgstr ""
+
+#: lesson-files/include/sc-master:438
+#, fuzzy
+msgid "Aeolian Dominant"
+msgstr "Eólico"
+
+#: lesson-files/include/sc-master:439
+#, fuzzy
+msgid "Aeolian #3"
+msgstr "Eólico"
+
+#: lesson-files/include/sc-master:472
+#, fuzzy
+msgid "Semilocrian"
+msgstr "Locrio"
+
+#: lesson-files/include/sc-master:473
+#, fuzzy
+msgid "Locrian #2"
+msgstr "Locrio"
+
+#: lesson-files/include/sc-master:475
+#, fuzzy
+msgid "Aeolian b5"
+msgstr "Eólico"
+
+#: lesson-files/include/sc-master:476
+msgid "Locrian natural 2"
+msgstr ""
+
+#: lesson-files/include/sc-master:509
+#, fuzzy
+msgid "Superlocrian"
+msgstr "Locrio"
+
+#: lesson-files/include/sc-master:510
+#, fuzzy
+msgid "Altered"
+msgstr "Acordes alterados"
+
+#: lesson-files/include/sc-master:511
+#, fuzzy
+msgid "Ravel"
+msgstr "Guardar"
+
+#: lesson-files/include/sc-master:512
+#, fuzzy
+msgid "Diminished-WholeTone"
+msgstr ""
+"5ª\n"
+"disminuída"
+
+#: lesson-files/include/sc-master:513
+#, fuzzy
+msgid "Locrian b4"
+msgstr "Locrio"
+
+#: lesson-files/include/sc-master:544
+#, fuzzy
+msgid "Melodic Minor A-D"
+msgstr "Menor melódica"
+
+#: lesson-files/include/sc-master:559
+#, fuzzy
+msgid "Harmonic Minor"
+msgstr "Menor armónica"
+
+#: lesson-files/include/sc-master:560
+msgid "Mohammedan"
+msgstr ""
+
+#: lesson-files/include/sc-master:561
+#, fuzzy
+msgid "Aeolian maj7"
+msgstr "Eólico"
+
+#: lesson-files/include/sc-master:562
+#, fuzzy
+msgid "Melodic Minor b6"
+msgstr "Menor melódica"
+
+#: lesson-files/include/sc-master:595
+#, fuzzy
+msgid "Locrian #6"
+msgstr "Locrio"
+
+#: lesson-files/include/sc-master:628
+#, fuzzy
+msgid "Ionian Augmented"
+msgstr "aumentado"
+
+#: lesson-files/include/sc-master:629
+#, fuzzy
+msgid "Ionian #5"
+msgstr "Jónico"
+
+#: lesson-files/include/sc-master:662
+#, fuzzy
+msgid "Romanian"
+msgstr "Jónico"
+
+#: lesson-files/include/sc-master:663
+#, fuzzy
+msgid "Dorian #4"
+msgstr "Dórico"
+
+#: lesson-files/include/sc-master:664
+#, fuzzy
+msgid "Dorian #11"
+msgstr "Dórico"
+
+#: lesson-files/include/sc-master:665
+msgid "Misheberakh"
+msgstr ""
+
+#: lesson-files/include/sc-master:698
+#, fuzzy
+msgid "Phrygian Dominant"
+msgstr "Frigio"
+
+#: lesson-files/include/sc-master:699
+#, fuzzy
+msgid "Phrygian Major"
+msgstr "Frigio"
+
+#: lesson-files/include/sc-master:700
+#, fuzzy
+msgid "Balkan"
+msgstr "AtrÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â¡s"
+
+#: lesson-files/include/sc-master:701
+msgid "Jewish"
+msgstr ""
+
+#: lesson-files/include/sc-master:702
+msgid "Spanish Gypsy"
+msgstr ""
+
+#: lesson-files/include/sc-master:703
+msgid "Ahava Rabah"
+msgstr ""
+
+#: lesson-files/include/sc-master:704
+#, fuzzy
+msgid "Mixolydian b2 b6"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:705
+#, fuzzy
+msgid "Mixolydian b9 b13"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:738
+#, fuzzy
+msgid "Lydian #2"
+msgstr "Lidio"
+
+#: lesson-files/include/sc-master:771
+#, fuzzy
+msgid "Ultralocrian"
+msgstr "Locrio"
+
+#: lesson-files/include/sc-master:772
+msgid "Superlocrian bb7"
+msgstr ""
+
+#: lesson-files/include/sc-master:773
+#, fuzzy
+msgid "Diminished"
+msgstr "disminuido"
+
+#: lesson-files/include/sc-master:810
+#, fuzzy
+msgid "Harmonic Major"
+msgstr "Menor armónica"
+
+#: lesson-files/include/sc-master:811
+#, fuzzy
+msgid "Ionian b6"
+msgstr "Jónico"
+
+#: lesson-files/include/sc-master:844
+#, fuzzy
+msgid "Dorian b5"
+msgstr "Dórico"
+
+#: lesson-files/include/sc-master:845
+#, fuzzy
+msgid "Locrian #2 #6"
+msgstr "Locrio"
+
+#: lesson-files/include/sc-master:878
+#, fuzzy
+msgid "Phrygian b4"
+msgstr "Frigio"
+
+#: lesson-files/include/sc-master:879
+#, fuzzy
+msgid "Superphrygian"
+msgstr "Frigio"
+
+#: lesson-files/include/sc-master:880
+msgid "Superlocrian natural 5"
+msgstr ""
+
+#: lesson-files/include/sc-master:913
+#, fuzzy
+msgid "Lydian b3"
+msgstr "Lidio"
+
+#: lesson-files/include/sc-master:914
+msgid "Jazz Minor #4"
+msgstr ""
+
+#: lesson-files/include/sc-master:915
+msgid "Jazz Minor #11"
+msgstr ""
+
+#: lesson-files/include/sc-master:916
+#, fuzzy
+msgid "Lydian Diminished"
+msgstr "disminuido"
+
+#: lesson-files/include/sc-master:949
+#, fuzzy
+msgid "Mixolydian b9"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:950
+#, fuzzy
+msgid "Mixolydian b2"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:983
+#, fuzzy
+msgid "Lydian #2 #5"
+msgstr "Lidio"
+
+#: lesson-files/include/sc-master:984
+#, fuzzy
+msgid "Lydian Augmented #2"
+msgstr "aumentado"
+
+#: lesson-files/include/sc-master:1017
+#, fuzzy
+msgid "Locrian bb7"
+msgstr "Locrio"
+
+#: lesson-files/include/sc-master:1018
+#, fuzzy
+msgid "Locrian diminished 7"
+msgstr "disminuido"
+
+#: lesson-files/include/sc-master:1055
+#, fuzzy
+msgid "Double Harmonic Major"
+msgstr "Menor armónica"
+
+#: lesson-files/include/sc-master:1056
+#, fuzzy
+msgid "Double Harmonic"
+msgstr "Armónico"
+
+#: lesson-files/include/sc-master:1057
+#, fuzzy
+msgid "Ionian b2 b6"
+msgstr "Jónico"
+
+#: lesson-files/include/sc-master:1058
+msgid "Bizantine"
+msgstr ""
+
+#: lesson-files/include/sc-master:1059
+msgid "Major Gipsy"
+msgstr ""
+
+#: lesson-files/include/sc-master:1060
+msgid "Charhargah"
+msgstr ""
+
+#: lesson-files/include/sc-master:1093
+#, fuzzy
+msgid "Lydian #2 #6"
+msgstr "Lidio"
+
+#: lesson-files/include/sc-master:1126
+#, fuzzy
+msgid "Ultraphrygian"
+msgstr "Frigio"
+
+#: lesson-files/include/sc-master:1127
+#, fuzzy
+msgid "Phrygian b4 bb7"
+msgstr "Frigio"
+
+#: lesson-files/include/sc-master:1128
+msgid "Ultralocrian natural 5"
+msgstr ""
+
+#: lesson-files/include/sc-master:1161
+#, fuzzy
+msgid "Hungarian Minor"
+msgstr "Menor armónica"
+
+#: lesson-files/include/sc-master:1162
+#, fuzzy
+msgid "Double Harmonic Minor"
+msgstr "Menor armónica"
+
+#: lesson-files/include/sc-master:1163
+#, fuzzy
+msgid "Harmonic Minor #4"
+msgstr "Menor armónica"
+
+#: lesson-files/include/sc-master:1164
+#, fuzzy
+msgid "Lydian b3 b6"
+msgstr "Lidio"
+
+#: lesson-files/include/sc-master:1165
+#, fuzzy
+msgid "Algerian"
+msgstr "Eólico"
+
+#: lesson-files/include/sc-master:1166
+msgid "Minor Gipsy"
+msgstr ""
+
+#: lesson-files/include/sc-master:1199
+msgid "Oriental"
+msgstr ""
+
+#: lesson-files/include/sc-master:1200
+#, fuzzy
+msgid "Mixolydian b5 b9"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:1201
+#, fuzzy
+msgid "Mixolydian b2 b5"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:1234
+#, fuzzy
+msgid "Ionian #2 #5"
+msgstr "Jónico"
+
+#: lesson-files/include/sc-master:1235
+#, fuzzy
+msgid "Ionian Augmented #2"
+msgstr "aumentado"
+
+#: lesson-files/include/sc-master:1268
+#, fuzzy
+msgid "Locrian bb3 bb7"
+msgstr "Locrio"
+
+#: lesson-files/include/sc-master:1305
+#, fuzzy
+msgid "Neapolitan"
+msgstr "Eólico"
+
+#: lesson-files/include/sc-master:1306
+msgid "Neapolitan Major"
+msgstr ""
+
+#: lesson-files/include/sc-master:1307
+msgid "Jazz Minor b2"
+msgstr ""
+
+#: lesson-files/include/sc-master:1340
+msgid "Leading Whole-Tone"
+msgstr ""
+
+#: lesson-files/include/sc-master:1341
+#, fuzzy
+msgid "Lydian #5 #6"
+msgstr "Lidio"
+
+#: lesson-files/include/sc-master:1342
+#, fuzzy
+msgid "Lydian Augmented #6"
+msgstr "aumentado"
+
+#: lesson-files/include/sc-master:1375
+msgid "Lydian Augmented Dominant"
+msgstr ""
+
+#: lesson-files/include/sc-master:1376
+#, fuzzy
+msgid "Lydian #5 b7"
+msgstr "Lidio"
+
+#: lesson-files/include/sc-master:1377
+#, fuzzy
+msgid "Mixolydian #4 #5"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:1378
+#, fuzzy
+msgid "Mixolydian #5 #11"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:1411
+msgid "Lydian Dominant b6"
+msgstr ""
+
+#: lesson-files/include/sc-master:1412
+#, fuzzy
+msgid "Lydian b6 b7"
+msgstr "Lidio"
+
+#: lesson-files/include/sc-master:1413
+#, fuzzy
+msgid "Mixolydian #4 b6"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:1414
+#, fuzzy
+msgid "Mixolydian #11 b13"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:1415
+#, fuzzy
+msgid "Lydian Minor"
+msgstr "Lidio"
+
+#: lesson-files/include/sc-master:1448
+#, fuzzy
+msgid "Major Locrian"
+msgstr "Locrio"
+
+#: lesson-files/include/sc-master:1449
+#, fuzzy
+msgid "Mixolydian b5 b6"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:1450
+#, fuzzy
+msgid "Mixolydian b5 b13"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:1451
+#, fuzzy
+msgid "Locrian #2 #3"
+msgstr "Locrio"
+
+#: lesson-files/include/sc-master:1452
+#, fuzzy
+msgid "Arabian"
+msgstr "Dórico"
+
+#: lesson-files/include/sc-master:1485
+msgid "Semilocrian b4"
+msgstr ""
+
+#: lesson-files/include/sc-master:1486
+msgid "Locrian natural 2 b4"
+msgstr ""
+
+#: lesson-files/include/sc-master:1519
+msgid "Superlocrian bb3"
+msgstr ""
+
+#: lesson-files/include/sc-master:1556
+msgid "Neapolitan Minor"
+msgstr ""
+
+#: lesson-files/include/sc-master:1557
+msgid "Neapolitan Major b6"
+msgstr ""
+
+#: lesson-files/include/sc-master:1558
+#, fuzzy
+msgid "Harmonic Minor b2"
+msgstr "Menor armónica"
+
+#: lesson-files/include/sc-master:1559
+#, fuzzy
+msgid "Phrygian maj7"
+msgstr "Frigio"
+
+#: lesson-files/include/sc-master:1592
+#, fuzzy
+msgid "Lydian #6"
+msgstr "Lidio"
+
+#: lesson-files/include/sc-master:1625
+#, fuzzy
+msgid "Mixolydian Augmented"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:1626
+#, fuzzy
+msgid "Mixolydian #5"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:1659
+msgid "Hungarian Gipsy"
+msgstr ""
+
+#: lesson-files/include/sc-master:1660
+#, fuzzy
+msgid "Aeolian #4"
+msgstr "Eólico"
+
+#: lesson-files/include/sc-master:1693
+#, fuzzy
+msgid "Locrian Dominant"
+msgstr "Locrio"
+
+#: lesson-files/include/sc-master:1694
+#, fuzzy
+msgid "Locrian #3"
+msgstr "Locrio"
+
+#: lesson-files/include/sc-master:1695
+msgid "Oriental b6"
+msgstr ""
+
+#: lesson-files/include/sc-master:1696
+#, fuzzy
+msgid "Mixolydian b5 b9 b13"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:1697
+#, fuzzy
+msgid "Mixolydian b2 b5 b6"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:1730
+#, fuzzy
+msgid "Ionian #2"
+msgstr "Jónico"
+
+#: lesson-files/include/sc-master:1763
+msgid "Ultralocrian bb3"
+msgstr ""
+
+#: lesson-files/include/sc-master:1800
+msgid "Hungarian Major"
+msgstr ""
+
+#: lesson-files/include/sc-master:1801
+msgid "Hungarian"
+msgstr ""
+
+#: lesson-files/include/sc-master:1802
+msgid "Lydian Dominant #2"
+msgstr ""
+
+#: lesson-files/include/sc-master:1803
+#, fuzzy
+msgid "Lydian #2 b7"
+msgstr "Lidio"
+
+#: lesson-files/include/sc-master:1804
+#, fuzzy
+msgid "Mixolydian #9 #11"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:1805
+#, fuzzy
+msgid "Mixolydian #2 #4"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:1838
+msgid "Superlocrian bb6 bb7"
+msgstr ""
+
+#: lesson-files/include/sc-master:1871
+#, fuzzy
+msgid "Harmonic Minor b5"
+msgstr "Menor armónica"
+
+#: lesson-files/include/sc-master:1904
+msgid "Superlocrian #6"
+msgstr ""
+
+#: lesson-files/include/sc-master:1937
+msgid "Jazz Minor #5"
+msgstr ""
+
+#: lesson-files/include/sc-master:1970
+#, fuzzy
+msgid "Dorian b9 #11"
+msgstr "Dórico"
+
+#: lesson-files/include/sc-master:2003
+#, fuzzy
+msgid "Lydian Augmented #3"
+msgstr "aumentado"
+
+#: lesson-files/include/sc-master:2004
+#, fuzzy
+msgid "Lydian #3 #5"
+msgstr "Lidio"
+
+#: lesson-files/include/sc-master:2041
+msgid "Major Pentatonic"
+msgstr ""
+
+#: lesson-files/include/sc-master:2056
+msgid "Suspended Pentatonic"
+msgstr ""
+
+#: lesson-files/include/sc-master:2057
+msgid "Yo"
+msgstr ""
+
+#: lesson-files/include/sc-master:2058
+msgid "Egyptian"
+msgstr ""
+
+#: lesson-files/include/sc-master:2073
+msgid "Man Gong"
+msgstr ""
+
+#: lesson-files/include/sc-master:2088
+msgid "Ritusen"
+msgstr ""
+
+#: lesson-files/include/sc-master:2103
+msgid "Minor Pentatonic"
+msgstr ""
+
+#: lesson-files/include/sc-master:2124
+#, fuzzy
+msgid "Diminished W-H"
+msgstr "disminuido"
+
+#: lesson-files/include/sc-master:2125
+msgid "Wholestep-Halfstep"
+msgstr ""
+
+#: lesson-files/include/sc-master:2140
+msgid "Octatonic H-W"
+msgstr ""
+
+#: lesson-files/include/sc-master:2141
+msgid "Halfstep-Wholestep"
+msgstr ""
+
+#: lesson-files/include/sc-master:2156
+msgid "Whole Tone"
+msgstr ""
+
+#: lesson-files/include/sc-master:2157
+#, fuzzy
+msgid "Exatonic"
+msgstr "tÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³nica"
+
+#: lesson-files/include/sc-master:2158
+#, fuzzy
+msgid "Anemitonic"
+msgstr "tÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³nica"
+
+#: lesson-files/include/sc-master:2175
+#, fuzzy
+msgid "Augmented"
+msgstr "aumentado"
+
+#: lesson-files/include/sc-master:2190
+#, fuzzy
+msgid "Augmented Inverse"
+msgstr "aumentado"
+
+#: lesson-files/include/sc-master:2209
+msgid "Bebop Major"
+msgstr ""
+
+#: lesson-files/include/sc-master:2210
+#, fuzzy
+msgid "Bebop Ionian"
+msgstr "Jónico"
+
+#: lesson-files/include/sc-master:2225
+msgid "Bebop Dominant"
+msgstr ""
+
+#: lesson-files/include/sc-master:2226
+#, fuzzy
+msgid "Bebop Mixolydian"
+msgstr "Mixolidio"
+
+#: lesson-files/include/sc-master:2241
+#, fuzzy
+msgid "Bebop Dorian"
+msgstr "Dórico"
+
+#: lesson-files/include/sc-master:2256
+msgid "Bebop Minor"
+msgstr ""
+
+#: lesson-files/include/sc-master:2257
+#, fuzzy
+msgid "Bebop Melodic Minor"
+msgstr "Menor melódica"
+
+#: lesson-files/include/sc-master:2272
+#, fuzzy
+msgid "Bebop Locrian"
+msgstr "Locrio"
+
+#: lesson-files/include/sc-master:2273
+#, fuzzy
+msgid "Bebop Halfdiminished"
+msgstr "disminuido"
+
+#: lesson-files/include/sc-master:2288
+msgid "Enigmatic"
+msgstr ""
+
+#: lesson-files/include/sc-master:2289
+msgid "Verdi's Enigmatic"
+msgstr ""
+
+#: lesson-files/include/sc-master:2306
+msgid "Blues"
+msgstr ""
+
+#: learningtree.txt:8
+#, fuzzy
+msgid "Ascending _melodic intervals"
+msgstr "Intervalos melódicos"
+
+#: learningtree.txt:26
+#, fuzzy
+msgid "_Descending melodic intervals"
+msgstr "Intervalos melódicos"
+
+#: learningtree.txt:44
+msgid "_Melodic intervals"
+msgstr "Intervalos melódicos"
+
+#: learningtree.txt:62
+msgid "_Harmonic intervals"
+msgstr "Intervalos armónicos"
+
+#: learningtree.txt:80
+msgid "_Sing intervals"
+msgstr "Cantar los intervalos"
+
+#: learningtree.txt:97
+#, fuzzy
+msgid "C_ompare harmonic intervals"
+msgstr "C_omparar intervalos"
+
+#: learningtree.txt:115
+msgid "_Chords"
+msgstr "_Acordes"
+
+#: learningtree.txt:118
+msgid "_Chords in root position"
+msgstr "Acordes en posicion raíz"
+
+#: learningtree.txt:132
+msgid "In_versions of chords"
+msgstr "Inversión de acordes"
+
+#: learningtree.txt:142
+msgid "S_ing chord"
+msgstr "Cantar acorde"
+
+#: learningtree.txt:153
+msgid "Sing chord _tone"
+msgstr "Cantar acorde"
+
+#: learningtree.txt:162
+#, fuzzy
+msgid "_Scales"
+msgstr "Esc_alas"
+
+#: learningtree.txt:246
+msgid "Neapolitan Minor scale and its modes"
+msgstr ""
+
+#: learningtree.txt:291
+msgid "Symmetric Scales"
+msgstr ""
+
+#: learningtree.txt:300
+#, fuzzy
+msgid "Scales Collections"
+msgstr "Archivo de lecciÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³n"
+
+#: learningtree.txt:319 learningtree.txt:322
+msgid "_Rhythm"
+msgstr "Ritmo"
+
+#: learningtree.txt:330
+#, fuzzy
+msgid "Tap generated rhythm"
+msgstr "4ÃƒÂƒÃ‚Â‚ÃƒÂ‚Ã‚Âª aumentada (trÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â­tono)"
+
+#: learningtree.txt:338
+msgid "_Misc"
+msgstr ""
+
+#: learningtree.txt:341
+msgid "I_ntonation (require CSound)"
+msgstr "E_ntonación (requiere CSound)"
+
+#: learningtree.txt:352
+msgid "_Dictation"
+msgstr "_Dictado"
+
+#: learningtree.txt:374
+msgid "Misc _exercises"
+msgstr "Otros Ejercicios"
+
+#: learningtree.txt:380
+msgid "Configure yourself"
+msgstr "Personalizada"
+
+#: learningtree.txt:393
+#, fuzzy
+msgid "Harmonic progressions"
+msgstr "Progression harmonique"
+
+#: learningtree.txt:404
+#, fuzzy
+msgid "Name intervals"
+msgstr "Nuevo intervalo"
+
+#: learningtree.txt:418
+#, fuzzy
+msgid "Name Scales"
+msgstr "Esc_alas"
+
+#~ msgid "Melodic down"
+#~ msgstr "Melódico descendente"
+
+#~ msgid "Melodic up/down"
+#~ msgstr "Melódico asc./desc."
+
+#~ msgid "Delete topic"
+#~ msgstr "Borrar tema"
+
+#~ msgid "_Topics:"
+#~ msgstr "_Temas:"
+
+#~ msgid "Delete lesson"
+#~ msgstr "Borrar lección"
+
+#~ msgid "_Lessons in the topic '%s':"
+#~ msgstr "_Lecciones en el tema '%s':"
+
+#~ msgid "No lessons in the topic '%s'."
+#~ msgstr "No hay lecciones en el tema '%s'."
+
+#~ msgid "Delete topic '%s'?"
+#~ msgstr "Borrar tema '%s'?"
+
+#~ msgid "_Theory"
+#~ msgstr "_Teoria"
+
+#~ msgid "_Practise"
+#~ msgstr "_Prácticas"
+
+#~ msgid "Written by"
+#~ msgstr "Escrito por"
+
+#~ msgid "Documented by"
+#~ msgstr "Documentado por"
+
+#~ msgid "Translated by"
+#~ msgstr "Traducido por"
+
+#~ msgid "C_redits"
+#~ msgstr "Créditos "
+
+#~ msgid "Only one chance to get the answer right"
+#~ msgstr "Sólo una oportunidad para encontrar la respuesta correcta"
+
+#~ msgid "_View"
+#~ msgstr "_Ver"
+
+#~ msgid "_Copyright notice"
+#~ msgstr "nota de Copyright"
+
+#~ msgid "Help viewer zoom in"
+#~ msgstr "Visor de ayuda zoom adentro"
+
+#~ msgid "Help viewer zoom out"
+#~ msgstr "Visor de ayuda zoom afuera"
+
+#~ msgid "Help viewer zoom reset"
+#~ msgstr "Visor de ayuda zoom restaurar"
+
+#~ msgid "GPL'ed ear training."
+#~ msgstr "audioperceptiva en GPL"
+
+#~ msgid ""
+#~ "This exercise doesn't work without GNOME.\n"
+#~ "It can pretty easy be converted to use Pixmap instead\n"
+#~ "of GnomeCanvas, but I (tca) don't have time to do this\n"
+#~ "right now. But I can answer questions if needed."
+#~ msgstr ""
+#~ "Este ejercicio no funciona sin GNOME.\n"
+#~ "Se puede convertir fácilmente para usar Pixmap en vez de\n"
+#~ "GnomeCanvas, pero yo (tca) no tengo tiempo para hacer esto\n"
+#~ "ahora mismo. Puedo responder dudas si se requiere."
+
+#~ msgid "_All help files"
+#~ msgstr "Todos los archivos de ayuda"
+
+#~ msgid ""
+#~ "Because not all documents has been\n"
+#~ "<a href=\"translating-solfege.html\">translated</a>\n"
+#~ "to LANGUAGE yet, the links go to the english version for those\n"
+#~ "untranslated sections."
+#~ msgstr ""
+#~ "Ya que no todos los documentos se han\n"
+#~ "traducido <a href=\"translating-solfege.html\">translated</a> a\n"
+#~ "LANGUAGE, los enlaces van a la documentación en inglés para esta sección."
+
+#~ msgid "GNU Solfege"
+#~ msgstr "Iniciando GNU Solfege"
+
+#~ msgid "Table of contents"
+#~ msgstr "Indice"
+
+#~ msgid "Exercises"
+#~ msgstr "Ejercicios"
+
+#~ msgid "Extending and translating Solfege"
+#~ msgstr "Extendiendo y traduciendo Solfege"
+
+#, fuzzy
+#~ msgid "Thirds All"
+#~ msgstr "Accords"
+
+#, fuzzy
+#~ msgid "Testing"
+#~ msgstr "Texto"
+
+#~ msgid "_Change midi instrument for this exercise"
+#~ msgstr "Cambiar el instrument midi para este ejercicio"
+
+#~ msgid "Lesson file"
+#~ msgstr "Archivo de lecciÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³n"
+
+#~ msgid "Title:"
+#~ msgstr "TÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â­tulo:"
+
+#, fuzzy
+#~ msgid "Change lesson file ..."
+#~ msgstr "Archivo de lecciÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³n"
+
+#~ msgid "Details"
+#~ msgstr "Detalles"
+
+#, fuzzy
+#~ msgid "Lesson collection:"
+#~ msgstr "Archivo de lecciÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³n"
+
+#, fuzzy
+#~ msgid "Description"
+#~ msgstr "DictÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©e"
+
+#, fuzzy
+#~ msgid "Start test"
+#~ msgstr "Commencer"
+
+#, fuzzy
+#~ msgid "You get only one try per question"
+#~ msgstr "Compter avant la question:"
+
+#, fuzzy
+#~ msgid "Practise selected intervals"
+#~ msgstr "Preguntar por estos intervalos"
+
+#, fuzzy
+#~ msgid "Interval"
+#~ msgstr "8ÃƒÂƒÃ‚Â‚ÃƒÂ‚Ã‚Âª"
+
+#, fuzzy
+#~ msgid "Identify interval"
+#~ msgstr "Identificar la nota"
+
+#~ msgid "Dictation"
+#~ msgstr "DictÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©e"
+
+#, fuzzy
+#~ msgid "Test statistics"
+#~ msgstr "EstadÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â­sticas"
+
+#, fuzzy
+#~ msgid "_Chord voicing"
+#~ msgstr "Inversiones de acordes"
+
+#~ msgid "Main toolbar"
+#~ msgstr "Barra de menÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Âº principal"
+
+#~ msgid "Show"
+#~ msgstr "Mostrar"
+
+#~ msgid "Text"
+#~ msgstr "Texto"
+
+#~ msgid "Both"
+#~ msgstr "Texto y ÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â­conos"
+
+#, fuzzy
+#~ msgid "Show navigation buttons"
+#~ msgstr "Barra de navegaciÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³n"
+
+#, fuzzy
+#~ msgid "_Example exercise"
+#~ msgstr "Ejercicios"
+
+#, fuzzy
+#~ msgid "_Harmonic interval"
+#~ msgstr "Intervalos armÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³nicos"
+
+#~ msgid "Try to keep question with range from"
+#~ msgstr "Intentar mantener la pregunta en un rango de"
+
+#~ msgid "to"
+#~ msgstr "a"
+
+#, fuzzy
+#~ msgid "_Test statistics"
+#~ msgstr "EstadÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â­sticas"
+
+#, fuzzy
+#~ msgid "Harmonic interval test results"
+#~ msgstr "Intervalles harmoniques"
+
+#~ msgid "Harmonic _progression dictation"
+#~ msgstr "Dictado de _progresiÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³n armÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³nica"
+
+#, fuzzy
+#~ msgid "Id_entify by name"
+#~ msgstr "Identificar por el nombre"
+
+#, fuzzy
+#~ msgid "Id_entify tone"
+#~ msgstr "Id_entificar la nota"
+
+#~ msgid "_Welcome"
+#~ msgstr "Bienvenido"
+
+#~ msgid "_Navigation buttons"
+#~ msgstr "Barra de navegaciÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³n"
+
+#~ msgid "_Toolbar"
+#~ msgstr "_Herramientas"
+
+#, fuzzy
+#~ msgid "Melodic interval test results"
+#~ msgstr "Intervalles mÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©lodiques"
+
+#, fuzzy
+#~ msgid "_Sing answer"
+#~ msgstr "Mostrar la respuesta"
+
+#~ msgid "_Sing interval"
+#~ msgstr "_Cantar el intervalo"
+
+#~ msgid "Sing _twelvetone"
+#~ msgstr "Cantar _doce notas"
+
+#~ msgid "Practise harmonic intervals from second to decim"
+#~ msgstr ""
+#~ "Practicar los intervalos armÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³nicos desde segunda hasta "
+#~ "dÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©cima"
+
+#~ msgid "Rh_ythm"
+#~ msgstr "Ri_tmo"
+
+#~ msgid "Navigation toolbar"
+#~ msgstr "Barra de navegaciÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³n"
+
+#, fuzzy
+#~ msgid "Sound _test. Hit 'Apply' before testing."
+#~ msgstr "Test de sonido. Haga clic en 'Aplicar' antes de probar"
+
+#, fuzzy
+#~ msgid "_Test sound"
+#~ msgstr "No hay sonido"
+
+#, fuzzy
+#~ msgid "All files"
+#~ msgstr "Todos los archivos de ayuda"
+
+#, fuzzy
+#~ msgid "_Preferences"
+#~ msgstr "Preferencias"
+
+#, fuzzy
+#~ msgid ""
+#~ "Solfege has two ways to play midi files. It is recommended to use Windows "
+#~ "multimedia output. An external midiplayer can be useful if your soundcard "
+#~ "lack a hardware synth, and you have to use a program like timidity to "
+#~ "play the music."
+#~ msgstr ""
+#~ "\"Solfege\" puede producir sonido de dos maneras diferentes. Se "
+#~ "recomienda utilizar la salida multimedia de Windows. El soporte para un "
+#~ "midiplayer externo sÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³lo es ÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Âºtil cuando su tarjeta de "
+#~ "sonido no sea capaz de generar sonidos sintetizados, y requiera de un "
+#~ "programa de sÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â­ntesis externo como timidity para generar sonidos."
+
+#, fuzzy
+#~ msgid "Harmonic interval test statistics"
+#~ msgstr "Intervalles harmoniques"
+
+#, fuzzy
+#~ msgid "Select questions to ask"
+#~ msgstr "RÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©pÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©ter la question"
+
+#~ msgid "Click to stack in the correct order"
+#~ msgstr "Haga clic para ordenar las notas correctamente"
+
+#, fuzzy
+#~ msgid "Select tool to erase tones"
+#~ msgstr "RÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©pÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©ter la question"
+
+#, fuzzy
+#~ msgid "_Scale names"
+#~ msgstr "Voz masculina"
+
+#~ msgid "Go"
+#~ msgstr "Adelante"
+
+#~ msgid "Stop"
+#~ msgstr "Parar"
+
+#, fuzzy
+#~ msgid "_Quit"
+#~ msgstr "Quitter"
+
+#, fuzzy
+#~ msgid "_Go forward"
+#~ msgstr "Continuar"
+
+#, fuzzy
+#~ msgid "_New question"
+#~ msgstr "Nota nueva"
+
+#, fuzzy
+#~ msgid "_Web browser:"
+#~ msgstr "Navegador:"
+
+#, fuzzy
+#~ msgid "Hear _answer"
+#~ msgstr "Adivinar la respuesta"
+
+#, fuzzy
+#~ msgid "_Slow bpm:"
+#~ msgstr "Tempo lento (bpm):"
+
+#~ msgid ""
+#~ "Solfege has two ways to play music. It can use /dev/music or an external "
+#~ "midi player program. The preferred way is to use /dev/music since this "
+#~ "offers features that will be utilized more in later versions of this "
+#~ "program."
+#~ msgstr ""
+#~ "\"Solfege\" tiene dos maneras de hacer mÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Âºsica. Puede utilizar /"
+#~ "dev/music o un programa externo que ejecute ficheros midi. Es preferible "
+#~ "utilizar /dev/music ya que este dispositivo ofrece posibilidades que "
+#~ "serÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â¡n utilizadas en futuras versiones de este programa."
+
+#~ msgid "_Identify scale"
+#~ msgstr "_Identificar la escala"
+
+#~ msgid "Identify by _name"
+#~ msgstr "Identificar el _nombre"
+
+#, fuzzy
+#~ msgid "_New scale"
+#~ msgstr "Nueva escala"
+
+#~ msgid "Ask for these scales"
+#~ msgstr "Preguntar por estos intervalos"
+
+#~ msgid "Override global settings"
+#~ msgstr "Anular los parÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â¡metros globales"
+
+#~ msgid "Slow bpm:"
+#~ msgstr "Tempo lento (bpm):"
+
+#~ msgid "Click 'New scale' to begin."
+#~ msgstr "Haga clic en 'Nueva escala' para iniciar"
+
+#~ msgid "No sound"
+#~ msgstr "No hay sonido"
+
+#~ msgid "Use external midiplayer"
+#~ msgstr "Utilizar el programa midi"
+
+#~ msgid "Sound test. Hit 'Apply' before testing."
+#~ msgstr "Test de sonido. Haga clic en 'Aplicar' antes de probar"
+
+#~ msgid "m7 and M7 in inversions"
+#~ msgstr "m7 y M7 con inversiones"
+
+#~ msgid "Major, minor, dim and aug in root position"
+#~ msgstr ""
+#~ "Mayor, menor, disminuido y aumentado en posiciÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³n fundamental"
+
+#~ msgid "User resizeable main window"
+#~ msgstr "Ventana principal de tamaÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â±o variable"
+
+#~ msgid "Program error"
+#~ msgstr "Error del programa"
+
+#~ msgid ""
+#~ "Hm... *something* is wrong. You should report this to bug-solfege@gnu.org "
+#~ "or solfege-devel@lists.sourceforge.net if you think this is a bug in "
+#~ "Solfege."
+#~ msgstr ""
+#~ "Hmm... *algo* saliÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³ mal. Por favor reporte esto a bug-solfege@gnu."
+#~ "org o\n"
+#~ "solfege-devel@lists.sourceforge.net si piensa que hay un error en Solfege."
+
+#~ msgid "Authors:"
+#~ msgstr "Autores:"
+
+#~ msgid "Repeat chord"
+#~ msgstr "Repetir el acorde"
+
+#~ msgid "Show development menu"
+#~ msgstr "Mostrar el menÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Âº de \"Desarrollo\""
+
+#~ msgid "Repeat scale"
+#~ msgstr "Repetir escala"
+
+#, fuzzy
+#~ msgid "Developer docs"
+#~ msgstr "_Desarrollo"
+
+#~ msgid "Enable"
+#~ msgstr "Activar"
+
+#~ msgid "This exercise don't work without GNOME."
+#~ msgstr "Este ejercicio no se puede hacer sin GNOME."
+
+#, fuzzy
+#~ msgid "New version available at http://www.solfege.org"
+#~ msgstr "Nueva versiÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â³n disponible en http://www.solfege.org"
+
+#~ msgid ""
+#~ "This menu contains\n"
+#~ "mostly useless stuff"
+#~ msgstr ""
+#~ "Este menÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Âº contiene en su\n"
+#~ "mayorÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â­a cosas inutilizables"
+
+#~ msgid "Tuner"
+#~ msgstr "Afinador"
+
+#~ msgid "septim"
+#~ msgstr "septiÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â¨me"
+
+#~ msgid "Apply"
+#~ msgstr "Appliquer"
+
+#~ msgid "Help"
+#~ msgstr "Aide"
+
+#, fuzzy
+#~ msgid ""
+#~ "FIXME for windows. Solfege has two ways to play music. It can use /dev/"
+#~ "music or an external midi player program. The preferred way is to use /"
+#~ "dev/music since this offers features that will be utilized more in later "
+#~ "versions of this program."
+#~ msgstr ""
+#~ "\"Solfege\" peut produire des sons de deux faÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â§ons "
+#~ "diffÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©rentes. Il peut soit utiliser directement /dev/music, soit "
+#~ "passer par un programme midi extÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©rieur. La deuxiÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â¨me "
+#~ "mÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©thode est prÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©fÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©rable car elle permet des "
+#~ "possibilitÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©s qui seront utilisÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©es dans des versions "
+#~ "ultÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©rieures du programme."
+
+#~ msgid "Wrong, but hou have already solved this question"
+#~ msgstr "Faux, mais tu avais dÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©jÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â  bien rÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©pondu"
+
+#~ msgid "Start"
+#~ msgstr "Commencer"
+
+#~ msgid "Compare intervalls"
+#~ msgstr "Comparer des intervalles"
+
+#~ msgid "Use antialiased canvas when possible"
+#~ msgstr "Utiliser l'anti-aliasing si possible"
+
+#~ msgid "Please configure with a wider range of notes"
+#~ msgstr "Prendre une plage de notes plus ÃƒÂƒÃ‚ÂƒÃƒÂ‚Ã‚Â©tendue, STP"
+
+#~ msgid "Lokrisk"
+#~ msgstr "Locrien"
+
+#~ msgid "Unknown author"
+#~ msgstr "Auteur inconnu"
+
+#~ msgid "Preferences window"
+#~ msgstr "Preferencias"

@@ -1,0 +1,11 @@
+# GNU Solfege
+# Copyright (C) 2005, 2006 Tom Cato Amundsen
+
+header {
+    module=melodicinterval
+    ask_for_intervals_0=-6, -10, -11
+    title = _("Tritonus and sevenths")
+    lesson_id = "df92bab5-d40c-41a2-826e-412228d519c3"
+    test = "4x"
+    test_requirement = "90%"
+}

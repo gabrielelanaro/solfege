@@ -1,0 +1,11 @@
+# GNU Solfege
+# Copyright (C) 2005, 2006 Tom Cato Amundsen
+
+header {
+    module=melodicinterval
+    ask_for_intervals_0=-8, -9
+    title = _("Sixths")
+    lesson_id = "1de9a081-033f-4b1a-abc5-d84e60cd2f14"
+    test = "6x"
+    test_requirement = "90%"
+}

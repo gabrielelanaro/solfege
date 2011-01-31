@@ -1,0 +1,46 @@
+#!/usr/bin/python
+# Solfege - free ear training software
+# Copyright (C) 2007 Tom Cato Amundsen
+# License is GPL, see file COPYING
+
+# I use this script with pylint version 0.12.1.
+
+from __future__ import absolute_import
+import os
+import shutil
+import solfege.i18n
+solfege.i18n.setup(".")
+import sys
+from pylint import lint
+
+TMPDIR="mylint-tmpdir"
+
+def tmpfilename(s):
+    p, fn = os.path.split(s)
+    return os.path.join(TMPDIR, p.replace("/", "-").replace("\\", "-")+"-"+fn)
+
+def lint_file(fn):
+    tmpfn = tmpfilename(fn)
+    s = open(fn, 'rU').read()
+    outfile = open(tmpfn, 'w')
+    lines = s.split("\n")
+    for x in range(4):
+        assert lines[x].startswith("#") or not lines[x].strip()
+    print >> outfile, "def _(s):\n    return s"
+    print >> outfile, "def _i(s):\n    return s"
+    outfile.write("\n".join(lines[4:]))
+    outfile.close()
+    os.system('pylint --include-ids=y --good-names="i,j,k,ex,Run,_,s,m,i" --no-docstring-rgx=".*" %s' % tmpfn)
+    os.remove(tmpfn)
+
+try:
+    os.mkdir(TMPDIR)
+except OSError:
+    pass
+
+for fn in sys.argv[1:]:
+    lint_file(fn)
+try:
+    os.rmdir(TMPDIR)
+except OSError:
+    pass

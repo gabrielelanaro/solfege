@@ -1,0 +1,6 @@
+#!/bin/sh
+grep "$1" --color=auto exercises/standard/lesson-files/*
+find -name "*.py" | xargs grep --color=auto -n "$1" Makefile.in
+find -name Makefile | xargs grep --color=auto  -n "$1"
+grep --color=auto -n "$1" *.xml
+cd help/C && find | xargs grep --color=auto -n "$1"

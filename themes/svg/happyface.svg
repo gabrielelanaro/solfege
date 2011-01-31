@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   width="72.000000pt"
+   height="72.000000pt"
+   id="svg1"
+   sodipodi:version="0.32"
+   inkscape:version="0.40"
+   sodipodi:docbase="/home/tom/src/solfege/themes/svg"
+   sodipodi:docname="happyface.svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.3888889"
+     inkscape:cx="36.000000"
+     inkscape:cy="35.658945"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:grid-points="true"
+     gridspacingy="3.0000000pt"
+     gridspacingx="3.0000000pt"
+     gridoriginy="0.0000000pt"
+     gridoriginx="0.0000000pt"
+     gridtolerance="3.0000000px"
+     inkscape:guide-bbox="true"
+     inkscape:guide-points="true"
+     guidetolerance="3.0000000px"
+     inkscape:window-width="1013"
+     inkscape:window-height="712"
+     inkscape:window-x="0"
+     inkscape:window-y="27" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF
+       id="RDF5">
+      <cc:Work
+         rdf:about=""
+         id="Work6">
+        <dc:format
+           id="format7">image/svg+xml</dc:format>
+        <dc:type
+           id="type9"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="fill:#d3af00;fill-opacity:1.0000000;stroke:#000000;stroke-width:0.93750000;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000"
+       id="path2311"
+       sodipodi:cx="48.750000"
+       sodipodi:cy="46.875000"
+       sodipodi:rx="41.250000"
+       sodipodi:ry="43.125000"
+       d="M 90.000000 46.875000 A 41.250000 43.125000 0 1 1  7.5000000,46.875000 A 41.250000 43.125000 0 1 1  90.000000 46.875000 z"
+       transform="matrix(1.078652,0.000000,0.000000,1.032258,-7.584270,-3.387097)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#00aa00;fill-opacity:1.0000000;stroke:#000000;stroke-opacity:1.0000000"
+       id="path1683"
+       sodipodi:cx="20.625000"
+       sodipodi:cy="24.375000"
+       sodipodi:rx="9.3750000"
+       sodipodi:ry="13.125000"
+       d="M 30.000000 24.375000 A 9.3750000 13.125000 0 1 1  11.250000,24.375000 A 9.3750000 13.125000 0 1 1  30.000000 24.375000 z"
+       transform="translate(5.625000,0.500000)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#00aa00;fill-opacity:1.0000000;stroke:#000000;stroke-opacity:1.0000000"
+       id="path1684"
+       sodipodi:cx="20.625000"
+       sodipodi:cy="24.375000"
+       sodipodi:rx="9.3750000"
+       sodipodi:ry="13.125000"
+       d="M 30.000000 24.375000 A 9.3750000 13.125000 0 1 1  11.250000,24.375000 A 9.3750000 13.125000 0 1 1  30.000000 24.375000 z"
+       transform="translate(43.12500,0.500000)" />
+    <path
+       style="fill:#00aa00;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;stroke-miterlimit:4.0000000;stroke-dasharray:none;"
+       d="M 75.000000,48.750000 C 45.000000,86.250000 45.000000,86.250000 15.000000,48.750000 C 41.250000,67.500000 48.750000,67.500000 75.000000,48.750000 z "
+       id="path1687"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#00af00;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;stroke-miterlimit:4.0000000;stroke-dasharray:none;"
+       d="M 45.000000,35.526316 C 45.000000,35.526316 37.500000,48.750000 37.500000,48.750000 L 52.500000,48.750000 L 45.000000,35.526316 z "
+       id="path1689" />
+  </g>
+</svg>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   width="72.000000pt"
+   height="72.000000pt"
+   id="svg1"
+   sodipodi:version="0.32"
+   inkscape:version="0.40"
+   sodipodi:docbase="/home/tom/src/solfege/themes/svg"
+   sodipodi:docname="sing-chord.svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.3888889"
+     inkscape:cx="51.793594"
+     inkscape:cy="46.827068"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:grid-points="true"
+     gridspacingy="1.0000000pt"
+     gridspacingx="1.0000000pt"
+     gridoriginy="0.0000000pt"
+     gridoriginx="0.0000000pt"
+     gridtolerance="1.0000000px"
+     inkscape:guide-bbox="true"
+     inkscape:guide-points="true"
+     guidetolerance="3.0000000px"
+     inkscape:window-width="1013"
+     inkscape:window-height="712"
+     inkscape:window-x="0"
+     inkscape:window-y="27" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF
+       id="RDF5">
+      <cc:Work
+         rdf:about=""
+         id="Work6">
+        <dc:format
+           id="format7">image/svg+xml</dc:format>
+        <dc:type
+           id="type9"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1.0000000;stroke:none"
+       id="path1112"
+       sodipodi:cx="46.875000"
+       sodipodi:cy="76.875000"
+       sodipodi:rx="9.3750000"
+       sodipodi:ry="5.6250000"
+       d="M 56.250000 76.875000 A 9.3750000 5.6250000 0 1 1  37.500000,76.875000 A 9.3750000 5.6250000 0 1 1  56.250000 76.875000 z"
+       transform="matrix(1.200000,0.000000,0.000000,1.000000,-7.500000,0.000000)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1.0000000;stroke:none"
+       id="path1113"
+       sodipodi:cx="46.875000"
+       sodipodi:cy="76.875000"
+       sodipodi:rx="9.3750000"
+       sodipodi:ry="5.6250000"
+       d="M 56.250000 76.875000 A 9.3750000 5.6250000 0 1 1  37.500000,76.875000 A 9.3750000 5.6250000 0 1 1  56.250000 76.875000 z"
+       transform="matrix(1.200000,0.000000,0.000000,1.000000,-7.500000,-30.00000)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1.0000000;stroke:none"
+       id="path1114"
+       sodipodi:cx="46.875000"
+       sodipodi:cy="76.875000"
+       sodipodi:rx="9.3750000"
+       sodipodi:ry="5.6250000"
+       d="M 56.250000 76.875000 A 9.3750000 5.6250000 0 1 1  37.500000,76.875000 A 9.3750000 5.6250000 0 1 1  56.250000 76.875000 z"
+       transform="matrix(1.200000,0.000000,0.000000,1.000000,-7.500000,-15.00000)" />
+    <path
+       style="fill:#000000;fill-opacity:1.0000000;fill-rule:nonzero;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       id="path1117"
+       d="M 28.750000,7.5000000 C 32.810723,4.2686068 43.750000,0.0000000 50.000000,0.0000000 C 56.250000,0.0000000 63.750000,2.5000000 65.000000,8.7500000 C 66.341903,12.107496 58.750000,21.250000 51.250000,23.750000 C 48.750000,28.750000 51.654661,36.288437 52.500000,37.500000 L 45.000000,37.500000 C 44.233162,36.241943 42.500000,26.250000 46.250000,18.750000 C 52.500000,16.250000 57.500000,12.261282 57.500000,8.7500000 C 57.500000,6.2500000 54.375000,5.0000000 50.000000,5.0000000 C 44.576844,5.7196888 35.000000,8.7500000 31.250000,12.500000 L 28.750000,7.5000000 z "
+       sodipodi:nodetypes="cccccccsccc" />
+  </g>
+</svg>

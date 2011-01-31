@@ -1,0 +1,12 @@
+# GNU Solfege
+# Copyright (C) 2005 Tom Cato Amundsen
+
+header {
+    module = melodicinterval
+    ask_for_intervals_0=1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+    title = _("Second to decim")
+    theory = "theory-intervals.html"
+    lesson_id = "solfege.org-all-melodic-intervals"
+    test = "2x"
+    test_requirement = "100%"
+}

@@ -1,0 +1,28 @@
+# Solfege - ear training for GNOME
+# Copyright (C) 2006 Tom Cato Amundsen
+# License is GPL, see file COPYING
+# this lesson file created by Davide Bonetti
+
+header {
+    lesson_id = "098bf9e0-23db-11db-8682-8558e4e4f94s"
+  module = idbyname
+  random_transpose = yes
+  title = _("Bebop Scales - recognize structure")
+  have_repeat_slowly_button = yes
+  have_music_displayer = yes
+  fillnum = 5
+  filldir = horiz
+  help = "scales"
+  theory = "scales/beb"
+}
+tempo = 180/4
+
+include("include/sc-master")
+# This lesson uses variables included in "include/sc-master" version 1.1
+
+question { name = beb1s  voice(beb1la) }
+question { name = beb2s  voice(beb2la) }
+question { name = beb3s  voice(beb3la) }
+question { name = beb4s  voice(beb4la) }
+question { name = beb5s  voice(beb5la) }
+

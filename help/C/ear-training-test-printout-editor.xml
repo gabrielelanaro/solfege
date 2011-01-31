@@ -1,0 +1,23 @@
+<sect1 id='ear-training-test-printout-editor'>
+<title>Ear training test print-out editor</title>
+<para>
+ This tool is available on the <guimenu>File</guimenu> menu. Use it to create
+ ear training tests to print out on paper. Solfege will generate two versions of
+ the document: one for the students to complete, and one with the correct
+ answer already written.
+</para>
+
+<para>
+ The <guibutton>Add</guibutton> button will pop up a menu with all exercises
+ from the active front page that this tool can create exercises from.
+ When writing this, the exercise modules 
+ <link linkend='idbyname-module'>idbyname</link>,
+ <link linkend='melodicinterval-module'>melodicinterval</link> and
+ <link linkend='harmonicinterval-module'>harmonicinterval</link>. From lesson
+ files written for the <literal>idbyname</literal> module, only
+ <link linkend='lfunc-chord'>chord</link>,
+ <link linkend='lfunc-rvoice'>rvoice</link> and 
+ <link linkend='lfunc-voice'>voice</link> music objects are supported.
+</para>
+</sect1>
+

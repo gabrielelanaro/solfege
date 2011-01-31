@@ -1,0 +1,30 @@
+# Solfege - ear training for GNOME
+# Copyright (C) 2006 Tom Cato Amundsen
+# License is GPL, see file COPYING
+# this lesson file created by Davide Bonetti
+
+header {
+    lesson_id = "381f6a30-2453-11db-9c7d-579b64606811"
+  module = idbyname
+  random_transpose = yes
+  title = _("Major Scale and its modes - arpeged by thirds")
+  have_repeat_slowly_button = yes
+  have_music_displayer = yes
+  fillnum = 4
+  filldir = horiz
+  help = "scales"
+  theory = "scales/maj"
+}
+tempo = 240/4
+
+include("include/sc-master")
+# This lesson uses variables included in "include/sc-master" version 1.1
+
+question { name = maj1n  voice(maj1lt) }
+question { name = maj2n  voice(maj2lt) }
+question { name = maj3n  voice(maj3lt) }
+question { name = maj4n  voice(maj4lt) }
+question { name = maj5n  voice(maj5lt) }
+question { name = maj6n  voice(maj6lt) }
+question { name = maj7n  voice(maj7lt) }
+

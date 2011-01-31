@@ -1,0 +1,12 @@
+# GNU Solfege
+# Copyright (C) 2005 Tom Cato Amundsen
+# License is GPL, see file COPYING
+
+header {
+    module=harmonicinterval
+    intervals=10, 11
+    title = _("Sevenths")
+    lesson_id = "26cb145f-d712-40f4-adc3-274c47e561f4"
+    test = "6x"
+    test_requirement = "90%"
+}

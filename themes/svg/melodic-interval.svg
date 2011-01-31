@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   width="72.000000pt"
+   height="72.000000pt"
+   id="svg1"
+   sodipodi:version="0.32"
+   inkscape:version="0.40"
+   sodipodi:docbase="/home/tom/src/solfege/themes/svg"
+   sodipodi:docname="melodic-interval.svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.3888889"
+     inkscape:cx="36.000000"
+     inkscape:cy="36.000000"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:grid-points="true"
+     gridspacingy="3.0000000pt"
+     gridspacingx="3.0000000pt"
+     gridoriginy="0.0000000pt"
+     gridoriginx="0.0000000pt"
+     gridtolerance="2.0000000px"
+     inkscape:guide-bbox="true"
+     inkscape:guide-points="true"
+     guidetolerance="3.0000000px"
+     inkscape:window-width="1013"
+     inkscape:window-height="712"
+     inkscape:window-x="0"
+     inkscape:window-y="27" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF
+       id="RDF5">
+      <cc:Work
+         rdf:about=""
+         id="Work6">
+        <dc:format
+           id="format7">image/svg+xml</dc:format>
+        <dc:type
+           id="type9"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="M 63.750000,61.268797 C 63.750000,64.710195 58.713203,67.500000 52.500000,67.500000 C 46.286797,67.500000 41.250000,64.710195 41.250000,61.268797 C 41.250000,57.827398 46.286797,55.037593 52.500000,55.037593 C 58.713203,55.037593 63.750000,57.827398 63.750000,61.268797 z "
+       style="fill:#000000;fill-opacity:1.0000000;stroke:none"
+       id="path1723" />
+    <path
+       d="M 30.000000,80.018797 C 30.000000,83.460195 24.963203,86.250000 18.750000,86.250000 C 12.536797,86.250000 7.5000000,83.460195 7.5000000,80.018797 C 7.5000000,76.577398 12.536797,73.787593 18.750000,73.787593 C 24.963203,73.787593 30.000000,76.577398 30.000000,80.018797 z "
+       style="fill:#000000;fill-opacity:1.0000000;stroke:none"
+       id="path1724" />
+    <rect
+       width="3.7500000"
+       height="45.000000"
+       x="26.250000"
+       y="22.500000"
+       style="fill:#000000;fill-opacity:1.0000000;stroke:none"
+       id="rect1725" />
+    <rect
+       width="3.7500000"
+       height="45.000000"
+       x="60.000000"
+       y="3.7500000"
+       style="fill:#000000;fill-opacity:1.0000000;stroke:none"
+       id="rect1091" />
+  </g>
+</svg>

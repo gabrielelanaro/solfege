@@ -1,0 +1,11 @@
+# GNU Solfege
+# Copyright (C) 2005 Tom Cato Amundsen
+
+header {
+    module=melodicinterval
+    ask_for_intervals_0=15, 16
+    title = _("Decims")
+    lesson_id = "1bf61c7d-2852-455a-aba2-0c26524f8043"
+    test = "6x"
+    test_requirement = "90%"
+}
