@@ -36,9 +36,6 @@ if sys.platform == 'win32':
     # Also, this had to be done after we set the environment
     # variables. Example dir: Gehör
     prefix = prefix.decode(sys.getfilesystemencoding())
-os.chdir(os.path.join(prefix, "share", "solfege"))
-sys.path.insert(1, os.path.join(prefix, "lib", "solfege"))
-sys.path.insert(1, os.path.join(prefix, "share", "solfege"))
 
 from solfege import cfg
 from solfege import filesystem
@@ -51,13 +48,10 @@ from solfege import filesystem
 if not os.path.exists(filesystem.app_data()):
     os.mkdir(filesystem.app_data())
 
-if prefix == "/usr":
-    sysconf = "/etc/solfege"
-else:
-    sysconf = os.path.join(prefix, "etc", "solfege")
+sysconf = '.'
 
 try:
-    cfg.initialise(os.path.join(prefix, "share", "solfege", "default.config"),
+    cfg.initialise("default.config",
                    sysconf, filesystem.rcfile())
 except UnicodeDecodeError, e:
     traceback.print_exc()
